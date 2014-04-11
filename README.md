@@ -7,3 +7,6 @@ http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Re
 Data by city filtered by Wall Street Journal:
 http://projects.wsj.com/medicarebilling/?mod=medicarein
 
+D3 examples:
+
+http://bl.ocks.org/mbostock/1256572
