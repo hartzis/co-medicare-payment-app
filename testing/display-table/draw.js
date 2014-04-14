@@ -1,45 +1,34 @@
-var csvData,
-    sumPayments,
+var sumPayments,
     w,
     h,
     barPad;
 
-d3.csv("arv-den.csv", function(csv) {
+w = 500;
+h = 350;
+barPad = 1;
 
-    // MAKE SURE PAYMENTS IS A NUMBER NOT STRING
-    csvData = csv.map(function(d) {
-        return {
-            Provider: d['Provider'],
-            Specialty: d['Specialty'],
-            City: d['City'],
-            State: d['State'],
-            Payments: +d['Payments']
-        }
-    });
+function init() {
 
-    w = 500;
-    h = 350;
-    barPad = 1;
 
     d3.select("body")
         .append("svg")
         .attr("width", w)
         .attr("height", h)
+        .attr("id", "svgContainer")
+        .style("border", "2px solid #aaa")
+};
 
-    dataLoaded();
-
-});
-
-var dataLoaded = function() {
+var drawData = function(csvData) {
     console.log(csvData);
-    sumPayments = d3.sum(csvData, function(d) {
-        return d.Payments
-    })
     console.log('Payments Sum:', sumPayments);
 
 
-    d3.select('svg')
-        .selectAll('rect .graph')
+    sumPayments = d3.sum(csvData, function(d) {
+        return d.Payments
+    })
+
+    var bars = d3.select('#svgContainer')
+        .selectAll('rect')
         .data(csvData)
         .enter()
         .append('rect')
@@ -55,7 +44,7 @@ var dataLoaded = function() {
             return (300 * (d.Payments / sumPayments))
         });
 
-    d3.select('svg')
+    var barsText = d3.select('#svgContainer')
         .selectAll('text')
         .data(csvData)
         .enter()

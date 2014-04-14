@@ -2,13 +2,24 @@
 <html>
 <head>
     <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+	<script type="text/javascript" src="draw.js"></script>
+	<script type="text/javascript" src="csv.js"></script>
+
+
 </head>
 <body>
 
 
+<button id="drawBars" value="DrawBars">Draw Bars!</button>
+
+<script type="text/javascript">
+	d3.select('#drawBars').on("click", function(d,i){
+		cities_csv();
+	});
 
 
-<script src="main.js"></script>
+	init();
+</script>
 
 </body>
 </html>
