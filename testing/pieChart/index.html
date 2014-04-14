@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  	<script src="http://d3js.org/d3.v3.min.js"></script>
+
+  <title>Untitled</title>
+</head>
+<body>
+	<script type="text/javascript">
+		d3.csv("testArvada.csv", function(data){
+			data.forEach(function(d){
+				d.Payments = +d.Payments;
+				console.log(d.Payments);
+			});
+		});
+			
+	</script>
+
+
+		
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+</body>
+</html>
