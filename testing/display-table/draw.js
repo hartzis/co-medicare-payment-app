@@ -20,12 +20,11 @@ function init() {
 
 var drawData = function(csvData) {
     console.log(csvData);
-    console.log('Payments Sum:', sumPayments);
-
 
     sumPayments = d3.sum(csvData, function(d) {
-        return d.Payments
+        return +d.Payments
     })
+    console.log('Payments Sum:', sumPayments);
 
     var bars = d3.select('#svgContainer')
         .selectAll('rect')
