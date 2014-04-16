@@ -1,9 +1,7 @@
-d3.csv("arvada.csv", function(d) {
-	return {
-		provider: d.Provider,
-		specialty: d.Specialty,
-		city: d.City,
-		state: d.State,
-		payment: +(d.Payments).replace(/$/, '')
-	};
+var width = 960,
+	height = 500,
+	radius = Math.min(width,height) / 2;
+
+d3.csv("testArvada.csv", function(d) {
+	
 });

@@ -8,10 +8,45 @@
 </head>
 <body>
 	<script type="text/javascript">
+		var width = 900,
+			height = 500,
+			radius = Math.min(width, height)/2;
+		var color = d3.scale.category20c();
+
+		var arc = d3.svg.arc()
+			.outerRadius(radius-10)
+			.innerRadius(0);
+
+		//calculate pie angles
+		var pie = d3.layout.pie()
+			.sort(null)
+			.value(function(d){
+				return +d.Payments
+			});
+
+
+		//create svg element
+		var svg = d3.select("body").append("svg")
+			.attr("width", width)
+			.attr("height", height);
+
+
 		d3.csv("testArvada.csv", function(data){
 			data.forEach(function(d){
-				d.Payments = +d.Payments;
-				console.log(d.Payments);
+				data.Payments = +data.Payments;
+
+			});
+			console.log(pie(data))
+		//set up groups
+		var g = svg.selectAll(".arc")
+			.data(pie(data))
+			.enter().append("g")
+			.attr("class", "arc");
+
+		g.append("path")
+			.attr("d", arc)
+			.style("fill", function(d){
+				return color(d.data.Payments);
 			});
 		});
 			
