@@ -23,14 +23,19 @@ def main():
             writer.writerow(newrow)
 
     # by Andy Boyle
+    # edited by me: hartzis
     # Open the CSV
-    f = open( 'citiesDataCleaned.csv', 'rU' )
+    cleanedCSV = open( 'citiesDataCleaned.csv', 'rU' )
     # Change each fieldname to the appropriate field name. I know, so difficult.
-    reader = csv.DictReader( f, fieldnames = ( "Specialty","City","Payments" ))
+    reader = csv.DictReader( cleanedCSV, fieldnames = ( "Specialty","City","Payments" ))
     # Parse the CSV into JSON and save
-    f = open( 'allCities.json', 'w')
-    json.dump( [ row for row in reader ], f )
-    print "JSON parsed!"
+    outputJSON = open( 'allCities.json', 'w')
+    print "JSON opened!"
+    outputJSON.write('[')
+    for row in reader:
+        row['Payments'] = float(row['Payments'])
+        json.dump( row, outputJSON )
+    outputJSON.write(']')
     print "JSON saved!"
 
 if __name__ == '__main__':
