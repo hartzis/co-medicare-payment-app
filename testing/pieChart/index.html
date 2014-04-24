@@ -11,7 +11,6 @@
 		var width = 900,
 			height = 500,
 			radius = Math.min(width, height)/2;
-		var color = d3.scale.category20c();
 
 		var arc = d3.svg.arc()
 			.outerRadius(radius-10)
@@ -31,9 +30,9 @@
 			.attr("height", height);
 
 
-		d3.csv("testArvada.csv", function(data){
+		d3.csv("arvadaPayments.csv", function(data){
 			data.forEach(function(d){
-				data.Payments = +data.Payments;
+				data.payments = +data.payments;
 
 			});
 			console.log(pie(data))

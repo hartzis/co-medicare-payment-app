@@ -38,7 +38,18 @@ def payments_by_specialty(filename):
 
 	return specialtyPaymentsSum
 
-print payments_by_specialty('testArvada.csv')
+with open('arvadaPayments.csv', 'wb') as outfile:
+	writer = csv.writer(outfile)
+	paymentList = payments_by_specialty('testArvada.csv')
+	writer.writerow(['specialty', 'payments'])
+
+	for key, value in paymentList.items():
+		
+		row = [key, value]
+		writer.writerow(row)
+
+
+
 
 
 
