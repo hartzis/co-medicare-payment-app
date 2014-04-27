@@ -12,7 +12,7 @@ def main():
     with open('citiesDataCleaned.csv', 'w') as outfile:
         writer = csv.writer(outfile)
         # writer.writerow(header)
-        f = csv.reader(open('allCities.csv', 'r'))
+        f = csv.reader(open('test.csv', 'r'))
         #remove headers
         rownum = 0
         for row in f:
