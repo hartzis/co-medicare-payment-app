@@ -1,7 +1,6 @@
 import csv
 import collections
 
-# citiesArray = ['arvada', 'boulder']
 
 citiesArray = ['arvada', 'aurora', 'boulder', 'broomfield', 'denver',
 	'fortCollins', 'golden', 'greeley', 'highlandsRanch', 'lakewood', 'longmont', 'louisville',
@@ -21,12 +20,6 @@ def main():
 			finalOut = city+'Payments.csv'
 			print incsv
 			print outcsv
-			# with open(incsv, 'rb') as f:
-			# 	r = csv.reader(f, delimiter=',')
-			# 	header = r.next()
-		
-			# 	header[3] = 'State'
-			# 	header[4] = 'Payments'
 
 
 			with open(outcsv, 'w') as outfile:
@@ -38,16 +31,6 @@ def main():
 					row[-1]=row[-1].replace('$','').replace(',','')
 					writer.writerow(row)
 			
-
-			# with open(finalOut, 'wb') as outfile:
-			# 	writer = csv.writer(outfile)
-			# 	paymentList = payments_by_specialty(outcsv)
-			# 	# writer.writerow(['specialty', 'payments'])
-
-			# 	for key, value in paymentList.items():
-					
-			# 		row = [city, key, value]
-			# 		writer.writerow(row)
 
 			paymentList = payments_by_specialty(outcsv)
 			for key, value in paymentList.items():

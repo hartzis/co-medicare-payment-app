@@ -1,0 +1,445 @@
+arvada,Gynecological/Oncology,9557.65
+arvada,Clinical Laboratory,853331.92
+arvada,Optometry,69375.89
+arvada,Licensed Clinical Social Worker,15673.04
+arvada,Physical Medicine and Rehabilitation,29761.57
+arvada,Clinical Psychologist,8566.87
+arvada,Physical Therapist,265040.26
+arvada,Obstetrics/Gynecology,10321.64
+arvada,Family Practice,392989.49
+arvada,Ophthalmology,352012.43
+arvada,Occupational therapist,16264.46
+arvada,Chiropractic,59468.02
+arvada,Nephrology,563852.7200000001
+arvada,Otolaryngology,89615.79000000001
+arvada,General Practice,252393.31
+arvada,Mass Immunization Roster Biller,70267.81
+arvada,Internal Medicine,195128.97999999998
+arvada,Podiatry,77585.15
+arvada,Emergency Medicine,13628.17
+arvada,Interventional Pain Management,75131.96
+arvada,Neurology,74492.33
+arvada,Nurse Practitioner,25182.22
+arvada,Pathology,319543.2799999999
+arvada,Physician Assistant,109462.58
+aurora,Cardiac Surgery,167826.75
+aurora,Anesthesiology,321813.27
+aurora,Radiation Oncology,1500199.64
+aurora,Pulmonary Disease,113217.13
+aurora,Ambulance Service Supplier,5081765.42
+aurora,Clinical Laboratory,3359068.5399999996
+aurora,Orthopedic Surgery,314596.1
+aurora,Slide Preparation Facility,435850.92
+aurora,Physical Medicine and Rehabilitation,113087.39
+aurora,Gastroenterology,93017.9
+aurora,Cardiology,4047562.7999999993
+aurora,Family Practice,941703.96
+aurora,Ophthalmology,2992548.2099999995
+aurora,Diagnostic Radiology,868976.8300000001
+aurora,Internal Medicine,4916079.780000001
+aurora,Critical Care (Intensivists),559784.07
+aurora,Nephrology,1054968.49
+aurora,Portable X-ray,155204.93
+aurora,Obstetrics/Gynecology,845150.64
+aurora,Hematology/Oncology,2197226.0900000003
+aurora,Geriatric Medicine,601907.33
+aurora,Podiatry,96420.28
+aurora,Infectious Disease,1350197.24
+aurora,Emergency Medicine,699304.5499999999
+aurora,Physical Therapist,293130.66000000003
+aurora,Neurosurgery,176403.46
+aurora,Neurology,222548.2
+aurora,Nurse Practitioner,1186539.97
+aurora,Dermatology,2884307.04
+aurora,Independent Diagnostic Testing Facility,591714.24
+aurora,Physician Assistant,1768850.0799999998
+boulder,Urology,724002.26
+boulder,Anesthesiology,47746.98
+boulder,Radiation Oncology,999215.3200000001
+boulder,Pulmonary Disease,309528.19999999995
+boulder,Ambulatory Surgical Center,569832.41
+boulder,Ambulance Service Supplier,1083324.46
+boulder,Orthopedic Surgery,595144.8799999999
+boulder,Physical Medicine and Rehabilitation,902054.6799999999
+boulder,Gastroenterology,273253.83999999997
+boulder,Cardiology,2073147.09
+boulder,Family Practice,709673.8599999998
+boulder,Ophthalmology,1897718.25
+boulder,Neurology,435376.66000000003
+boulder,Medical Oncology,781973.21
+boulder,Speech Language Pathologist,28952.32
+boulder,Otolaryngology,208884.62
+boulder,Psychiatry,96523.42
+boulder,General Practice,106496.26
+boulder,Obstetrics/Gynecology,30590.35
+boulder,General Surgery,237061.01
+boulder,Hematology/Oncology,1107772.8
+boulder,Internal Medicine,1233757.3199999998
+boulder,Podiatry,88740.59
+boulder,Infectious Disease,112120.37
+boulder,Clinical Psychologist,88806.69
+boulder,Emergency Medicine,85228.35
+boulder,Endocrinology,76066.3
+boulder,Rheumatology,322028.95999999996
+boulder,Physical Therapist,1064766.92
+boulder,Neurosurgery,245361.13
+boulder,Diagnostic Radiology,773078.7799999999
+boulder,Geriatric Medicine,405328.35
+boulder,Nurse Practitioner,71559.36
+boulder,Dermatology,1152034.82
+boulder,Independent Diagnostic Testing Facility,28634.7
+boulder,Pathology,386472.42000000004
+boulder,Physician Assistant,277788.08999999997
+boulder,Interventional Radiology,35279.94
+boulder,Allergy/Immunology,35699.86
+broomfield,Pulmonary Disease,54361.31
+broomfield,Ambulance Service Supplier,116226.05
+broomfield,Orthopedic Surgery,36582.91
+broomfield,Optometry,117833.46
+broomfield,Slide Preparation Facility,128260.61
+broomfield,Clinical Psychologist,10445.83
+broomfield,Physical Therapist,405479.6599999999
+broomfield,Obstetrics/Gynecology,1491.5
+broomfield,Family Practice,200797.61000000002
+broomfield,Pain Management,43113.3
+broomfield,Chiropractic,51540.060000000005
+broomfield,Plastic and Reconstructive Surgery,41061.92
+broomfield,Otolaryngology,47042.08
+broomfield,CRNA,19146.11
+broomfield,Mass Immunization Roster Biller,27319.66
+broomfield,Physical Medicine and Rehabilitation,32553.25
+broomfield,Internal Medicine,454275.86
+broomfield,Podiatry,39772.94
+broomfield,Emergency Medicine,37793.22
+broomfield,Interventional Pain Management,18358.82
+broomfield,Diagnostic Radiology,51183.91
+broomfield,Nurse Practitioner,14017.9
+broomfield,Dermatology,134162.41
+broomfield,Physician Assistant,14416.45
+denver,Urology,1892844.48
+denver,Anesthesiology,131487.14
+denver,Radiation Oncology,1753486.2700000003
+denver,Pulmonary Disease,319551.69
+denver,Ambulatory Surgical Center,6240836.409999999
+denver,Ambulance Service Supplier,4272731.95
+denver,Clinical Laboratory,29008038.77
+denver,Orthopedic Surgery,2449802.79
+denver,Clinical Psychologist,218306.96
+denver,Cardiology,2164101.3299999996
+denver,Family Practice,699562.16
+denver,Hand Surgery,123030.13
+denver,Ophthalmology,10040279.520000001
+denver,Diagnostic Radiology,790075.2400000001
+denver,Vascular Surgery,436385.13999999996
+denver,Medical Oncology,1061801.94
+denver,Pain Management,130228.9
+denver,Nephrology,3653864.2600000002
+denver,Dermatology,3639895.0600000005
+denver,Otolaryngology,1323966.66
+denver,Obstetrics/Gynecology,245571.79
+denver,Hematology/Oncology,5466138.22
+denver,Internal Medicine,2638897.3899999997
+denver,Podiatry,246581.32
+denver,Infectious Disease,178357.76
+denver,Emergency Medicine,243698.5
+denver,Rheumatology,6829236.780000001
+denver,Physical Therapist,376612.01
+denver,Neurology,647763.0499999999
+denver,Geriatric Medicine,264886.09
+denver,Nurse Practitioner,121249.54
+denver,Portable X-ray,2700988.88
+denver,Pathology,150899.12
+denver,Physician Assistant,240319.97
+denver,Interventional Radiology,158488.94
+fortCollins,Interventional Pain Management,631421.46
+fortCollins,Urology,864583.2899999999
+fortCollins,Radiation Oncology,387154.11
+fortCollins,Pulmonary Disease,96624.91
+fortCollins,Ambulatory Surgical Center,5028546.410000001
+fortCollins,Clinical Laboratory,92802.28
+fortCollins,Orthopedic Surgery,3402024.1699999995
+fortCollins,Physical Medicine and Rehabilitation,284960.02
+fortCollins,Clinical Psychologist,343851.87
+fortCollins,Cardiology,2600693.26
+fortCollins,Family Practice,1032667.3100000002
+fortCollins,Ophthalmology,4644871.56
+fortCollins,Neurology,1656168.4400000002
+fortCollins,Medical Oncology,636703.98
+fortCollins,Occupational therapist,422882.27
+fortCollins,Cardiac Electrophysiology,170917.74
+fortCollins,Critical Care (Intensivists),650667.61
+fortCollins,Nephrology,146460.12
+fortCollins,Otolaryngology,378949.95
+fortCollins,CRNA,145070.91999999998
+fortCollins,Pathology,224223.55
+fortCollins,Hematology/Oncology,2171615.28
+fortCollins,Internal Medicine,2955177.3100000005
+fortCollins,Podiatry,741843.82
+fortCollins,Infectious Disease,345120.17
+fortCollins,Gastroenterology,671634.17
+fortCollins,Emergency Medicine,698093.3200000001
+fortCollins,Rheumatology,813755.82
+fortCollins,Physical Therapist,450937.49
+fortCollins,Neurosurgery,467793.52
+fortCollins,Diagnostic Radiology,1828258.08
+fortCollins,Nurse Practitioner,201565.36
+fortCollins,Dermatology,2195784.5300000003
+fortCollins,Independent Diagnostic Testing Facility,1794098.98
+fortCollins,General Surgery,169376.3
+fortCollins,Physician Assistant,103238.05
+fortCollins,Interventional Radiology,79043.4
+fortCollins,Allergy/Immunology,60187.91
+golden,Sports Medicine,441816.39
+golden,Family Practice,483303.91
+golden,Ambulatory Surgical Center,1102634.49
+golden,Orthopedic Surgery,1265962.8299999996
+golden,Optometry,22394.020000000004
+golden,Licensed Clinical Social Worker,56395.41
+golden,Physical Medicine and Rehabilitation,186062.61
+golden,Physical Therapist,597446.69
+golden,Anesthesiology,376956.2800000001
+golden,Ophthalmology,292175.63
+golden,Hand Surgery,76040.39
+golden,Occupational therapist,44870.020000000004
+golden,Chiropractic,4485.52
+golden,Pain Management,89605.53
+golden,CRNA,86811.87000000001
+golden,General Practice,49095.91
+golden,Mass Immunization Roster Biller,20717.67
+golden,Hematology/Oncology,827675.4
+golden,Internal Medicine,136052.11
+golden,Emergency Medicine,33094.77
+golden,Osteopathic Manipulative Medicine,43382.06
+golden,Nurse Practitioner,525.14
+golden,Dermatology,198268.13
+golden,Physician Assistant,257618.56000000006
+greeley,Interventional Pain Management,413174.44
+greeley,Urology,371537.86
+greeley,Cardiac Surgery,102158.16
+greeley,Anesthesiology,168426.8
+greeley,Radiation Oncology,168841.23
+greeley,Pulmonary Disease,356383.84
+greeley,Ambulatory Surgical Center,611820.32
+greeley,Ambulance Service Supplier,1161523.45
+greeley,Orthopedic Surgery,846006.75
+greeley,Physical Medicine and Rehabilitation,180094.22999999998
+greeley,Gastroenterology,310598.41
+greeley,Cardiology,1421104.3299999998
+greeley,Mass Immunization Roster Biller,24667.02
+greeley,Family Practice,1848036.1699999997
+greeley,Ophthalmology,2999191.6000000006
+greeley,Diagnostic Radiology,272612.38
+greeley,Medical Oncology,79509.92
+greeley,Chiropractic,143447.75
+greeley,Otolaryngology,221342.16
+greeley,Psychiatry,122696.98000000001
+greeley,Public Health Welfare Agency,35442.31
+greeley,Pathology,285952.72
+greeley,Hematology/Oncology,180306.41999999998
+greeley,Internal Medicine,1620557.68
+greeley,Podiatry,158377.21
+greeley,Clinical Psychologist,29196.38
+greeley,Emergency Medicine,321081.69999999995
+greeley,Rheumatology,2029314.29
+greeley,Physical Therapist,458393.45999999996
+greeley,Neurology,567390.46
+greeley,Nurse Practitioner,317055.10000000003
+greeley,Dermatology,270896.79
+greeley,General Surgery,329096.76999999996
+greeley,Physician Assistant,729473.4500000003
+greeley,Allergy/Immunology,61832.24
+highlandsRanch,Internal Medicine,378989.68
+highlandsRanch,Optometry,108546.84
+highlandsRanch,General Practice,72729.57
+highlandsRanch,Licensed Clinical Social Worker,23290.49
+highlandsRanch,Physical Therapist,286710.44999999995
+highlandsRanch,Rheumatology,852599.99
+highlandsRanch,Emergency Medicine,98820.81
+highlandsRanch,Family Practice,348136.37000000005
+highlandsRanch,Podiatry,5060.93
+highlandsRanch,Chiropractic,7537.030000000001
+highlandsRanch,Psychiatry,121547.96999999999
+highlandsRanch,Speech Language Pathologist,13007.22
+highlandsRanch,Ophthalmology,221154.77
+highlandsRanch,Preventive Medicine,7573.43
+highlandsRanch,Cardiology,110452.62
+highlandsRanch,Nurse Practitioner,41238.32
+highlandsRanch,CRNA,4716.07
+highlandsRanch,Physician Assistant,5120.64
+highlandsRanch,Mass Immunization Roster Biller,35914.07
+highlandsRanch,Clinical Laboratory,153.0
+highlandsRanch,Neurology,54942.59
+lakewood,Urology,252420.77999999997
+lakewood,Anesthesiology,145153.41999999998
+lakewood,Radiation Oncology,66155.5
+lakewood,Pulmonary Disease,435941.86
+lakewood,CRNA,121304.77
+lakewood,Ambulatory Surgical Center,1403157.07
+lakewood,Ambulance Service Supplier,1004831.85
+lakewood,Clinical Laboratory,506071.65
+lakewood,Orthopedic Surgery,132355.58
+lakewood,Optometry,203467.64
+lakewood,Physical Medicine and Rehabilitation,234306.13
+lakewood,Clinical Psychologist,185290.19
+lakewood,Cardiology,308670.3
+lakewood,Family Practice,1494068.32
+lakewood,Ophthalmology,494452.79000000004
+lakewood,Diagnostic Radiology,1396995.0599999998
+lakewood,Medical Oncology,1665083.61
+lakewood,Occupational therapist,33517.57
+lakewood,Chiropractic,57696.17
+lakewood,Critical Care (Intensivists),753570.5200000001
+lakewood,Nephrology,189624.18
+lakewood,Speech Language Pathologist,20870.17
+lakewood,Otolaryngology,62852.86
+lakewood,Psychiatry,33426.64
+lakewood,Obstetrics/Gynecology,34087.08
+lakewood,Hematology/Oncology,867696.9
+lakewood,Internal Medicine,1358161.0399999998
+lakewood,Podiatry,199566.11
+lakewood,Gastroenterology,374495.42
+lakewood,Emergency Medicine,1253147.8299999996
+lakewood,Endocrinology,68082.64
+lakewood,Rheumatology,983241.02
+lakewood,Physical Therapist,107004.39000000001
+lakewood,Neurology,257391.26
+lakewood,Geriatric Medicine,59037.22
+lakewood,Nurse Practitioner,52836.259999999995
+lakewood,Dermatology,1505487.29
+lakewood,Independent Diagnostic Testing Facility,455684.69
+lakewood,Pathology,121040.85
+lakewood,Physician Assistant,94478.11
+lakewood,Allergy/Immunology,102843.25
+longmont,Interventional Pain Management,66381.41
+longmont,Urology,289014.8
+longmont,Anesthesiology,159393.7
+longmont,Radiation Oncology,71744.42
+longmont,Pulmonary Disease,698506.46
+longmont,Ambulatory Surgical Center,1268196.34
+longmont,Ambulance Service Supplier,127924.3
+longmont,Orthopedic Surgery,759397.05
+longmont,Optometry,122375.8
+longmont,Licensed Clinical Social Worker,80739.76999999999
+longmont,Physical Medicine and Rehabilitation,66783.34
+longmont,Gastroenterology,836411.24
+longmont,Cardiology,1004337.87
+longmont,Obstetrics/Gynecology,42204.159999999996
+longmont,Family Practice,2312853.7900000005
+longmont,Hand Surgery,73466.93
+longmont,Diagnostic Radiology,390211.24
+longmont,Ophthalmology,5630822.23
+longmont,Neurology,438603.13
+longmont,Vascular Surgery,62653.52
+longmont,Chiropractic,183852.73999999996
+longmont,Nephrology,101878.36
+longmont,Otolaryngology,283995.21
+longmont,Psychiatry,83403.06999999999
+longmont,Mass Immunization Roster Biller,65552.12
+longmont,Pathology,121084.64
+longmont,Hematology/Oncology,1316336.83
+longmont,Internal Medicine,925344.98
+longmont,Podiatry,121244.78
+longmont,Physician Assistant,177002.75999999998
+longmont,Clinical Psychologist,56661.340000000004
+longmont,Emergency Medicine,127695.05
+longmont,Endocrinology,213508.55
+longmont,Rheumatology,836572.93
+longmont,Physical Therapist,374481.35
+longmont,Preventive Medicine,75342.93
+longmont,Nurse Practitioner,52903.78
+longmont,Dermatology,413223.12
+longmont,Independent Diagnostic Testing Facility,236765.02
+longmont,General Surgery,81721.31
+longmont,Infectious Disease,105656.87
+louisville,CRNA,14127.550000000001
+louisville,Ambulatory Surgical Center,124078.26
+louisville,Ambulance Service Supplier,71961.25
+louisville,Orthopedic Surgery,551984.63
+louisville,Optometry,120861.47000000002
+louisville,Clinical Psychologist,3518.78
+louisville,Physical Therapist,214096.37999999995
+louisville,Obstetrics/Gynecology,1425.16
+louisville,Family Practice,335405.21
+louisville,Ophthalmology,2100992.0
+louisville,Chiropractic,14682.8
+louisville,Plastic and Reconstructive Surgery,44713.84
+louisville,Psychiatry,37051.079999999994
+louisville,Mass Immunization Roster Biller,11609.33
+louisville,Internal Medicine,103712.13
+louisville,Podiatry,65756.58
+louisville,Emergency Medicine,26436.53
+louisville,Endocrinology,120907.12
+louisville,Neurology,51718.12
+louisville,Nurse Practitioner,73663.67
+louisville,Dermatology,71205.33
+louisville,General Surgery,42902.44
+louisville,Physician Assistant,60274.799999999996
+louisville,Allergy/Immunology,16105.51
+loveland,Cardiac Surgery,323510.30999999994
+loveland,Anesthesiology,7787.54
+loveland,Radiation Oncology,185875.2
+loveland,Psychiatry,119918.53
+loveland,Ambulatory Surgical Center,927235.02
+loveland,Ambulance Service Supplier,1226851.77
+loveland,Clinical Laboratory,5108854.91
+loveland,Orthopedic Surgery,224938.68
+loveland,Optometry,97652.73
+loveland,Licensed Clinical Social Worker,8698.9
+loveland,Gastroenterology,1234265.87
+loveland,Physical Therapist,934734.2399999998
+loveland,Obstetrics/Gynecology,76927.02
+loveland,Family Practice,1013717.2100000003
+loveland,Hematology,44892.73
+loveland,Ophthalmology,811841.83
+loveland,Certified Nurse Midwife,5624.13
+loveland,Medical Oncology,67048.17
+loveland,Occupational therapist,251372.05000000002
+loveland,Chiropractic,224305.50000000003
+loveland,Critical Care (Intensivists),392983.31
+loveland,Internal Medicine,1079612.18
+loveland,Speech Language Pathologist,76629.66
+loveland,Otolaryngology,72726.48
+loveland,CRNA,43365.28
+loveland,General Practice,82189.47
+loveland,Mass Immunization Roster Biller,107434.26999999999
+loveland,Pathology,487684.4
+loveland,Geriatric Medicine,111759.39
+loveland,Podiatry,46923.12
+loveland,Clinical Psychologist,74123.45
+loveland,Emergency Medicine,146104.33000000002
+loveland,Endocrinology,53801.42
+loveland,Cardiology,136281.61000000002
+loveland,Neurosurgery,41970.02
+loveland,Neurology,327181.58
+loveland,Nurse Practitioner,51230.83
+loveland,Dermatology,1647013.38
+loveland,Independent Diagnostic Testing Facility,70685.39
+loveland,General Surgery,98390.73000000001
+loveland,Physician Assistant,86528.51000000001
+loveland,Allergy/Immunology,39254.13
+westminster,Urology,42347.22
+westminster,CRNA,32905.33
+westminster,Ambulatory Surgical Center,371279.88
+westminster,Ambulance Service Supplier,341405.24
+westminster,Clinical Laboratory,1389.37
+westminster,Orthopedic Surgery,13441.81
+westminster,Optometry,20624.18
+westminster,Clinical Psychologist,127110.15000000001
+westminster,Physical Therapist,276173.11
+westminster,Obstetrics/Gynecology,1436.59
+westminster,Family Practice,1184462.9800000004
+westminster,Ophthalmology,439411.55000000005
+westminster,Chiropractic,38857.93
+westminster,Multispecialty Clinic/Group Practice,7076.31
+westminster,Nephrology,549544.54
+westminster,Psychiatry,20789.71
+westminster,Mass Immunization Roster Biller,36314.91999999999
+westminster,Internal Medicine,1051032.6199999999
+westminster,Podiatry,49750.119999999995
+westminster,Emergency Medicine,87274.0
+westminster,Endocrinology,39292.57
+westminster,Cardiology,473710.54
+westminster,Nurse Practitioner,23496.4
+westminster,Dermatology,279387.8
+westminster,General Surgery,36794.81
+westminster,Physician Assistant,150148.18
