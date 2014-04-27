@@ -1,0 +1,127 @@
+{
+    "type": "Topology",
+    "objects": {
+        "collection": {
+            "type": "GeometryCollection",
+            "geometries": [{
+                "type": "Point",
+                "properties": {
+                    "city": "Fort Collins",
+                    "state": "CO",
+                    "population": 148616
+                },
+                "coordinates": [3242, 9999]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Loveland",
+                    "state": "CO",
+                    "population": 70223
+                },
+                "coordinates": [3304, 8735]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Greeley",
+                    "state": "CO",
+                    "population": 95357
+                },
+                "coordinates": [9999, 8788]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Longmont",
+                    "state": "CO",
+                    "population": 88669
+                },
+                "coordinates": [3032, 6338]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Boulder",
+                    "state": "CO",
+                    "population": 101808
+                },
+                "coordinates": [0, 4773]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Louisville",
+                    "state": "CO",
+                    "population": 19074
+                },
+                "coordinates": [2469, 4433]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Broomfield",
+                    "state": "CO",
+                    "population": 58298
+                },
+                "coordinates": [3295, 3847]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Arvada",
+                    "state": "CO",
+                    "population": 109745
+                },
+                "coordinates": [3371, 2657]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Lakewood",
+                    "state": "CO",
+                    "population": 145516
+                },
+                "coordinates": [3320, 1707]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Golden",
+                    "state": "CO",
+                    "population": 19186
+                },
+                "coordinates": [848, 2175]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Aurora",
+                    "state": "CO",
+                    "population": 339030
+                },
+                "coordinates": [7883, 1903]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Westminster",
+                    "state": "CO",
+                    "population": 109169
+                },
+                "coordinates": [4102, 3297]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Denver",
+                    "state": "CO",
+                    "population": 634265
+                },
+                "coordinates": [5097, 2015]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Highlands Ranch",
+                    "state": "CO",
+                    "population": 101898
+                },
+                "coordinates": [5501, 0]
+            }]
+        }
+    },
+    "arcs": [],
+    "bbox": [-105.26962280273436, 39.54085217181931, -104.71481323242188, 40.52423878069866],
+    "transform": {
+        "scale": [0.000055486505681816764, 0.00009834849573750874],
+        "translate": [-105.26962280273436, 39.54085217181931]
+    }
+}
