@@ -5,3 +5,19 @@
 	height: 600px;
 	width: 600px;
 }
+
+.city-label {
+ stroke: #000;
+  stroke-width:1;
+  fill: #000;
+  pointer-events: none;
+  
+}
+
+.city-marker {
+ fill: #000;
+ stroke-width:3;
+  stroke: #aaa;
+  opacity: 0.45;
+  cursor: pointer;
+}

@@ -32,19 +32,34 @@ d3.json("../json/cities.json", function(error, citiesJson) {
         .attr("transform", transform)
         .on('click', function(d) {
             console.log(d.properties.city)
+        })
+        .on("mouseover", function(d) {
+            //console.log(this);
+            d3.select(this).select('.city-label')
+                .transition().duration(500)
+                .attr('opacity', 1)
+        })
+        .on("mouseout", function(d) {
+            //console.log(this);
+            d3.select(this).select('.city-label')
+                .transition().duration(500)
+                .attr('opacity', 0)
         });
 
     // Add a circle.
     marker.append("svg:circle")
-        .attr("r", 3.5);
+        .attr("r", 9.5)
+        .classed("city-marker", true);
 
     // Add a label.
     marker.append("svg:text")
-        .attr("dx", -36)
-        .attr("dy", -15)
+        .attr("y", -12)
+        .style("text-anchor", "middle")
         .text(function(d) {
             return d.properties.city;
-        });
+        })
+        .classed("city-label", true)
+        .attr('opacity', 0);
 
 
     function transform(d) {

@@ -1,1 +1,1781 @@
-[{"City": "arvada", "Specialty": "Gynecological/Oncology", "Payments": 9557.65}{"City": "arvada", "Specialty": "Clinical Laboratory", "Payments": 853331.92}{"City": "arvada", "Specialty": "Optometry", "Payments": 69375.89}{"City": "arvada", "Specialty": "Licensed Clinical Social Worker", "Payments": 15673.04}{"City": "arvada", "Specialty": "Physical Medicine and Rehabilitation", "Payments": 29761.57}{"City": "arvada", "Specialty": "Clinical Psychologist", "Payments": 8566.87}{"City": "arvada", "Specialty": "Physical Therapist", "Payments": 265040.26}{"City": "arvada", "Specialty": "Obstetrics/Gynecology", "Payments": 10321.64}{"City": "arvada", "Specialty": "Family Practice", "Payments": 392989.49}{"City": "arvada", "Specialty": "Ophthalmology", "Payments": 352012.43}{"City": "arvada", "Specialty": "Occupational therapist", "Payments": 16264.46}{"City": "arvada", "Specialty": "Chiropractic", "Payments": 59468.02}{"City": "arvada", "Specialty": "Nephrology", "Payments": 563852.7200000001}{"City": "arvada", "Specialty": "Otolaryngology", "Payments": 89615.79000000001}{"City": "arvada", "Specialty": "General Practice", "Payments": 252393.31}{"City": "arvada", "Specialty": "Mass Immunization Roster Biller", "Payments": 70267.81}{"City": "arvada", "Specialty": "Internal Medicine", "Payments": 195128.97999999998}{"City": "arvada", "Specialty": "Podiatry", "Payments": 77585.15}{"City": "arvada", "Specialty": "Emergency Medicine", "Payments": 13628.17}{"City": "arvada", "Specialty": "Interventional Pain Management", "Payments": 75131.96}{"City": "arvada", "Specialty": "Neurology", "Payments": 74492.33}{"City": "arvada", "Specialty": "Nurse Practitioner", "Payments": 25182.22}{"City": "arvada", "Specialty": "Pathology", "Payments": 319543.2799999999}{"City": "arvada", "Specialty": "Physician Assistant", "Payments": 109462.58}{"City": "aurora", "Specialty": "Cardiac Surgery", "Payments": 167826.75}{"City": "aurora", "Specialty": "Anesthesiology", "Payments": 321813.27}{"City": "aurora", "Specialty": "Radiation Oncology", "Payments": 1500199.64}{"City": "aurora", "Specialty": "Pulmonary Disease", "Payments": 113217.13}{"City": "aurora", "Specialty": "Ambulance Service Supplier", "Payments": 5081765.42}{"City": "aurora", "Specialty": "Clinical Laboratory", "Payments": 3359068.5399999996}{"City": "aurora", "Specialty": "Orthopedic Surgery", "Payments": 314596.1}{"City": "aurora", "Specialty": "Slide Preparation Facility", "Payments": 435850.92}{"City": "aurora", "Specialty": "Physical Medicine and Rehabilitation", "Payments": 113087.39}{"City": "aurora", "Specialty": "Gastroenterology", "Payments": 93017.9}{"City": "aurora", "Specialty": "Cardiology", "Payments": 4047562.7999999993}{"City": "aurora", "Specialty": "Family Practice", "Payments": 941703.96}{"City": "aurora", "Specialty": "Ophthalmology", "Payments": 2992548.2099999995}{"City": "aurora", "Specialty": "Diagnostic Radiology", "Payments": 868976.8300000001}{"City": "aurora", "Specialty": "Internal Medicine", "Payments": 4916079.780000001}{"City": "aurora", "Specialty": "Critical Care (Intensivists)", "Payments": 559784.07}{"City": "aurora", "Specialty": "Nephrology", "Payments": 1054968.49}{"City": "aurora", "Specialty": "Portable X-ray", "Payments": 155204.93}{"City": "aurora", "Specialty": "Obstetrics/Gynecology", "Payments": 845150.64}{"City": "aurora", "Specialty": "Hematology/Oncology", "Payments": 2197226.0900000003}{"City": "aurora", "Specialty": "Geriatric Medicine", "Payments": 601907.33}{"City": "aurora", "Specialty": "Podiatry", "Payments": 96420.28}{"City": "aurora", "Specialty": "Infectious Disease", "Payments": 1350197.24}{"City": "aurora", "Specialty": "Emergency Medicine", "Payments": 699304.5499999999}{"City": "aurora", "Specialty": "Physical Therapist", "Payments": 293130.66000000003}{"City": "aurora", "Specialty": "Neurosurgery", "Payments": 176403.46}{"City": "aurora", "Specialty": "Neurology", "Payments": 222548.2}{"City": "aurora", "Specialty": "Nurse Practitioner", "Payments": 1186539.97}{"City": "aurora", "Specialty": "Dermatology", "Payments": 2884307.04}{"City": "aurora", "Specialty": "Independent Diagnostic Testing Facility", "Payments": 591714.24}{"City": "aurora", "Specialty": "Physician Assistant", "Payments": 1768850.0799999998}{"City": "boulder", "Specialty": "Urology", "Payments": 724002.26}{"City": "boulder", "Specialty": "Anesthesiology", "Payments": 47746.98}{"City": "boulder", "Specialty": "Radiation Oncology", "Payments": 999215.3200000001}{"City": "boulder", "Specialty": "Pulmonary Disease", "Payments": 309528.19999999995}{"City": "boulder", "Specialty": "Ambulatory Surgical Center", "Payments": 569832.41}{"City": "boulder", "Specialty": "Ambulance Service Supplier", "Payments": 1083324.46}{"City": "boulder", "Specialty": "Orthopedic Surgery", "Payments": 595144.8799999999}{"City": "boulder", "Specialty": "Physical Medicine and Rehabilitation", "Payments": 902054.6799999999}{"City": "boulder", "Specialty": "Gastroenterology", "Payments": 273253.83999999997}{"City": "boulder", "Specialty": "Cardiology", "Payments": 2073147.09}{"City": "boulder", "Specialty": "Family Practice", "Payments": 709673.8599999998}{"City": "boulder", "Specialty": "Ophthalmology", "Payments": 1897718.25}{"City": "boulder", "Specialty": "Neurology", "Payments": 435376.66000000003}{"City": "boulder", "Specialty": "Medical Oncology", "Payments": 781973.21}{"City": "boulder", "Specialty": "Speech Language Pathologist", "Payments": 28952.32}{"City": "boulder", "Specialty": "Otolaryngology", "Payments": 208884.62}{"City": "boulder", "Specialty": "Psychiatry", "Payments": 96523.42}{"City": "boulder", "Specialty": "General Practice", "Payments": 106496.26}{"City": "boulder", "Specialty": "Obstetrics/Gynecology", "Payments": 30590.35}{"City": "boulder", "Specialty": "General Surgery", "Payments": 237061.01}{"City": "boulder", "Specialty": "Hematology/Oncology", "Payments": 1107772.8}{"City": "boulder", "Specialty": "Internal Medicine", "Payments": 1233757.3199999998}{"City": "boulder", "Specialty": "Podiatry", "Payments": 88740.59}{"City": "boulder", "Specialty": "Infectious Disease", "Payments": 112120.37}{"City": "boulder", "Specialty": "Clinical Psychologist", "Payments": 88806.69}{"City": "boulder", "Specialty": "Emergency Medicine", "Payments": 85228.35}{"City": "boulder", "Specialty": "Endocrinology", "Payments": 76066.3}{"City": "boulder", "Specialty": "Rheumatology", "Payments": 322028.95999999996}{"City": "boulder", "Specialty": "Physical Therapist", "Payments": 1064766.92}{"City": "boulder", "Specialty": "Neurosurgery", "Payments": 245361.13}{"City": "boulder", "Specialty": "Diagnostic Radiology", "Payments": 773078.7799999999}{"City": "boulder", "Specialty": "Geriatric Medicine", "Payments": 405328.35}{"City": "boulder", "Specialty": "Nurse Practitioner", "Payments": 71559.36}{"City": "boulder", "Specialty": "Dermatology", "Payments": 1152034.82}{"City": "boulder", "Specialty": "Independent Diagnostic Testing Facility", "Payments": 28634.7}{"City": "boulder", "Specialty": "Pathology", "Payments": 386472.42000000004}{"City": "boulder", "Specialty": "Physician Assistant", "Payments": 277788.08999999997}{"City": "boulder", "Specialty": "Interventional Radiology", "Payments": 35279.94}{"City": "boulder", "Specialty": "Allergy/Immunology", "Payments": 35699.86}{"City": "broomfield", "Specialty": "Pulmonary Disease", "Payments": 54361.31}{"City": "broomfield", "Specialty": "Ambulance Service Supplier", "Payments": 116226.05}{"City": "broomfield", "Specialty": "Orthopedic Surgery", "Payments": 36582.91}{"City": "broomfield", "Specialty": "Optometry", "Payments": 117833.46}{"City": "broomfield", "Specialty": "Slide Preparation Facility", "Payments": 128260.61}{"City": "broomfield", "Specialty": "Clinical Psychologist", "Payments": 10445.83}{"City": "broomfield", "Specialty": "Physical Therapist", "Payments": 405479.6599999999}{"City": "broomfield", "Specialty": "Obstetrics/Gynecology", "Payments": 1491.5}{"City": "broomfield", "Specialty": "Family Practice", "Payments": 200797.61000000002}{"City": "broomfield", "Specialty": "Pain Management", "Payments": 43113.3}{"City": "broomfield", "Specialty": "Chiropractic", "Payments": 51540.060000000005}{"City": "broomfield", "Specialty": "Plastic and Reconstructive Surgery", "Payments": 41061.92}{"City": "broomfield", "Specialty": "Otolaryngology", "Payments": 47042.08}{"City": "broomfield", "Specialty": "CRNA", "Payments": 19146.11}{"City": "broomfield", "Specialty": "Mass Immunization Roster Biller", "Payments": 27319.66}{"City": "broomfield", "Specialty": "Physical Medicine and Rehabilitation", "Payments": 32553.25}{"City": "broomfield", "Specialty": "Internal Medicine", "Payments": 454275.86}{"City": "broomfield", "Specialty": "Podiatry", "Payments": 39772.94}{"City": "broomfield", "Specialty": "Emergency Medicine", "Payments": 37793.22}{"City": "broomfield", "Specialty": "Interventional Pain Management", "Payments": 18358.82}{"City": "broomfield", "Specialty": "Diagnostic Radiology", "Payments": 51183.91}{"City": "broomfield", "Specialty": "Nurse Practitioner", "Payments": 14017.9}{"City": "broomfield", "Specialty": "Dermatology", "Payments": 134162.41}{"City": "broomfield", "Specialty": "Physician Assistant", "Payments": 14416.45}{"City": "denver", "Specialty": "Urology", "Payments": 1892844.48}{"City": "denver", "Specialty": "Anesthesiology", "Payments": 131487.14}{"City": "denver", "Specialty": "Radiation Oncology", "Payments": 1753486.2700000003}{"City": "denver", "Specialty": "Pulmonary Disease", "Payments": 319551.69}{"City": "denver", "Specialty": "Ambulatory Surgical Center", "Payments": 6240836.409999999}{"City": "denver", "Specialty": "Ambulance Service Supplier", "Payments": 4272731.95}{"City": "denver", "Specialty": "Clinical Laboratory", "Payments": 29008038.77}{"City": "denver", "Specialty": "Orthopedic Surgery", "Payments": 2449802.79}{"City": "denver", "Specialty": "Clinical Psychologist", "Payments": 218306.96}{"City": "denver", "Specialty": "Cardiology", "Payments": 2164101.3299999996}{"City": "denver", "Specialty": "Family Practice", "Payments": 699562.16}{"City": "denver", "Specialty": "Hand Surgery", "Payments": 123030.13}{"City": "denver", "Specialty": "Ophthalmology", "Payments": 10040279.520000001}{"City": "denver", "Specialty": "Diagnostic Radiology", "Payments": 790075.2400000001}{"City": "denver", "Specialty": "Vascular Surgery", "Payments": 436385.13999999996}{"City": "denver", "Specialty": "Medical Oncology", "Payments": 1061801.94}{"City": "denver", "Specialty": "Pain Management", "Payments": 130228.9}{"City": "denver", "Specialty": "Nephrology", "Payments": 3653864.2600000002}{"City": "denver", "Specialty": "Dermatology", "Payments": 3639895.0600000005}{"City": "denver", "Specialty": "Otolaryngology", "Payments": 1323966.66}{"City": "denver", "Specialty": "Obstetrics/Gynecology", "Payments": 245571.79}{"City": "denver", "Specialty": "Hematology/Oncology", "Payments": 5466138.22}{"City": "denver", "Specialty": "Internal Medicine", "Payments": 2638897.3899999997}{"City": "denver", "Specialty": "Podiatry", "Payments": 246581.32}{"City": "denver", "Specialty": "Infectious Disease", "Payments": 178357.76}{"City": "denver", "Specialty": "Emergency Medicine", "Payments": 243698.5}{"City": "denver", "Specialty": "Rheumatology", "Payments": 6829236.780000001}{"City": "denver", "Specialty": "Physical Therapist", "Payments": 376612.01}{"City": "denver", "Specialty": "Neurology", "Payments": 647763.0499999999}{"City": "denver", "Specialty": "Geriatric Medicine", "Payments": 264886.09}{"City": "denver", "Specialty": "Nurse Practitioner", "Payments": 121249.54}{"City": "denver", "Specialty": "Portable X-ray", "Payments": 2700988.88}{"City": "denver", "Specialty": "Pathology", "Payments": 150899.12}{"City": "denver", "Specialty": "Physician Assistant", "Payments": 240319.97}{"City": "denver", "Specialty": "Interventional Radiology", "Payments": 158488.94}{"City": "fortCollins", "Specialty": "Interventional Pain Management", "Payments": 631421.46}{"City": "fortCollins", "Specialty": "Urology", "Payments": 864583.2899999999}{"City": "fortCollins", "Specialty": "Radiation Oncology", "Payments": 387154.11}{"City": "fortCollins", "Specialty": "Pulmonary Disease", "Payments": 96624.91}{"City": "fortCollins", "Specialty": "Ambulatory Surgical Center", "Payments": 5028546.410000001}{"City": "fortCollins", "Specialty": "Clinical Laboratory", "Payments": 92802.28}{"City": "fortCollins", "Specialty": "Orthopedic Surgery", "Payments": 3402024.1699999995}{"City": "fortCollins", "Specialty": "Physical Medicine and Rehabilitation", "Payments": 284960.02}{"City": "fortCollins", "Specialty": "Clinical Psychologist", "Payments": 343851.87}{"City": "fortCollins", "Specialty": "Cardiology", "Payments": 2600693.26}{"City": "fortCollins", "Specialty": "Family Practice", "Payments": 1032667.3100000002}{"City": "fortCollins", "Specialty": "Ophthalmology", "Payments": 4644871.56}{"City": "fortCollins", "Specialty": "Neurology", "Payments": 1656168.4400000002}{"City": "fortCollins", "Specialty": "Medical Oncology", "Payments": 636703.98}{"City": "fortCollins", "Specialty": "Occupational therapist", "Payments": 422882.27}{"City": "fortCollins", "Specialty": "Cardiac Electrophysiology", "Payments": 170917.74}{"City": "fortCollins", "Specialty": "Critical Care (Intensivists)", "Payments": 650667.61}{"City": "fortCollins", "Specialty": "Nephrology", "Payments": 146460.12}{"City": "fortCollins", "Specialty": "Otolaryngology", "Payments": 378949.95}{"City": "fortCollins", "Specialty": "CRNA", "Payments": 145070.91999999998}{"City": "fortCollins", "Specialty": "Pathology", "Payments": 224223.55}{"City": "fortCollins", "Specialty": "Hematology/Oncology", "Payments": 2171615.28}{"City": "fortCollins", "Specialty": "Internal Medicine", "Payments": 2955177.3100000005}{"City": "fortCollins", "Specialty": "Podiatry", "Payments": 741843.82}{"City": "fortCollins", "Specialty": "Infectious Disease", "Payments": 345120.17}{"City": "fortCollins", "Specialty": "Gastroenterology", "Payments": 671634.17}{"City": "fortCollins", "Specialty": "Emergency Medicine", "Payments": 698093.3200000001}{"City": "fortCollins", "Specialty": "Rheumatology", "Payments": 813755.82}{"City": "fortCollins", "Specialty": "Physical Therapist", "Payments": 450937.49}{"City": "fortCollins", "Specialty": "Neurosurgery", "Payments": 467793.52}{"City": "fortCollins", "Specialty": "Diagnostic Radiology", "Payments": 1828258.08}{"City": "fortCollins", "Specialty": "Nurse Practitioner", "Payments": 201565.36}{"City": "fortCollins", "Specialty": "Dermatology", "Payments": 2195784.5300000003}{"City": "fortCollins", "Specialty": "Independent Diagnostic Testing Facility", "Payments": 1794098.98}{"City": "fortCollins", "Specialty": "General Surgery", "Payments": 169376.3}{"City": "fortCollins", "Specialty": "Physician Assistant", "Payments": 103238.05}{"City": "fortCollins", "Specialty": "Interventional Radiology", "Payments": 79043.4}{"City": "fortCollins", "Specialty": "Allergy/Immunology", "Payments": 60187.91}{"City": "golden", "Specialty": "Sports Medicine", "Payments": 441816.39}{"City": "golden", "Specialty": "Family Practice", "Payments": 483303.91}{"City": "golden", "Specialty": "Ambulatory Surgical Center", "Payments": 1102634.49}{"City": "golden", "Specialty": "Orthopedic Surgery", "Payments": 1265962.8299999996}{"City": "golden", "Specialty": "Optometry", "Payments": 22394.020000000004}{"City": "golden", "Specialty": "Licensed Clinical Social Worker", "Payments": 56395.41}{"City": "golden", "Specialty": "Physical Medicine and Rehabilitation", "Payments": 186062.61}{"City": "golden", "Specialty": "Physical Therapist", "Payments": 597446.69}{"City": "golden", "Specialty": "Anesthesiology", "Payments": 376956.2800000001}{"City": "golden", "Specialty": "Ophthalmology", "Payments": 292175.63}{"City": "golden", "Specialty": "Hand Surgery", "Payments": 76040.39}{"City": "golden", "Specialty": "Occupational therapist", "Payments": 44870.020000000004}{"City": "golden", "Specialty": "Chiropractic", "Payments": 4485.52}{"City": "golden", "Specialty": "Pain Management", "Payments": 89605.53}{"City": "golden", "Specialty": "CRNA", "Payments": 86811.87000000001}{"City": "golden", "Specialty": "General Practice", "Payments": 49095.91}{"City": "golden", "Specialty": "Mass Immunization Roster Biller", "Payments": 20717.67}{"City": "golden", "Specialty": "Hematology/Oncology", "Payments": 827675.4}{"City": "golden", "Specialty": "Internal Medicine", "Payments": 136052.11}{"City": "golden", "Specialty": "Emergency Medicine", "Payments": 33094.77}{"City": "golden", "Specialty": "Osteopathic Manipulative Medicine", "Payments": 43382.06}{"City": "golden", "Specialty": "Nurse Practitioner", "Payments": 525.14}{"City": "golden", "Specialty": "Dermatology", "Payments": 198268.13}{"City": "golden", "Specialty": "Physician Assistant", "Payments": 257618.56000000006}{"City": "greeley", "Specialty": "Interventional Pain Management", "Payments": 413174.44}{"City": "greeley", "Specialty": "Urology", "Payments": 371537.86}{"City": "greeley", "Specialty": "Cardiac Surgery", "Payments": 102158.16}{"City": "greeley", "Specialty": "Anesthesiology", "Payments": 168426.8}{"City": "greeley", "Specialty": "Radiation Oncology", "Payments": 168841.23}{"City": "greeley", "Specialty": "Pulmonary Disease", "Payments": 356383.84}{"City": "greeley", "Specialty": "Ambulatory Surgical Center", "Payments": 611820.32}{"City": "greeley", "Specialty": "Ambulance Service Supplier", "Payments": 1161523.45}{"City": "greeley", "Specialty": "Orthopedic Surgery", "Payments": 846006.75}{"City": "greeley", "Specialty": "Physical Medicine and Rehabilitation", "Payments": 180094.22999999998}{"City": "greeley", "Specialty": "Gastroenterology", "Payments": 310598.41}{"City": "greeley", "Specialty": "Cardiology", "Payments": 1421104.3299999998}{"City": "greeley", "Specialty": "Mass Immunization Roster Biller", "Payments": 24667.02}{"City": "greeley", "Specialty": "Family Practice", "Payments": 1848036.1699999997}{"City": "greeley", "Specialty": "Ophthalmology", "Payments": 2999191.6000000006}{"City": "greeley", "Specialty": "Diagnostic Radiology", "Payments": 272612.38}{"City": "greeley", "Specialty": "Medical Oncology", "Payments": 79509.92}{"City": "greeley", "Specialty": "Chiropractic", "Payments": 143447.75}{"City": "greeley", "Specialty": "Otolaryngology", "Payments": 221342.16}{"City": "greeley", "Specialty": "Psychiatry", "Payments": 122696.98000000001}{"City": "greeley", "Specialty": "Public Health Welfare Agency", "Payments": 35442.31}{"City": "greeley", "Specialty": "Pathology", "Payments": 285952.72}{"City": "greeley", "Specialty": "Hematology/Oncology", "Payments": 180306.41999999998}{"City": "greeley", "Specialty": "Internal Medicine", "Payments": 1620557.68}{"City": "greeley", "Specialty": "Podiatry", "Payments": 158377.21}{"City": "greeley", "Specialty": "Clinical Psychologist", "Payments": 29196.38}{"City": "greeley", "Specialty": "Emergency Medicine", "Payments": 321081.69999999995}{"City": "greeley", "Specialty": "Rheumatology", "Payments": 2029314.29}{"City": "greeley", "Specialty": "Physical Therapist", "Payments": 458393.45999999996}{"City": "greeley", "Specialty": "Neurology", "Payments": 567390.46}{"City": "greeley", "Specialty": "Nurse Practitioner", "Payments": 317055.10000000003}{"City": "greeley", "Specialty": "Dermatology", "Payments": 270896.79}{"City": "greeley", "Specialty": "General Surgery", "Payments": 329096.76999999996}{"City": "greeley", "Specialty": "Physician Assistant", "Payments": 729473.4500000003}{"City": "greeley", "Specialty": "Allergy/Immunology", "Payments": 61832.24}{"City": "highlandsRanch", "Specialty": "Internal Medicine", "Payments": 378989.68}{"City": "highlandsRanch", "Specialty": "Optometry", "Payments": 108546.84}{"City": "highlandsRanch", "Specialty": "General Practice", "Payments": 72729.57}{"City": "highlandsRanch", "Specialty": "Licensed Clinical Social Worker", "Payments": 23290.49}{"City": "highlandsRanch", "Specialty": "Physical Therapist", "Payments": 286710.44999999995}{"City": "highlandsRanch", "Specialty": "Rheumatology", "Payments": 852599.99}{"City": "highlandsRanch", "Specialty": "Emergency Medicine", "Payments": 98820.81}{"City": "highlandsRanch", "Specialty": "Family Practice", "Payments": 348136.37000000005}{"City": "highlandsRanch", "Specialty": "Podiatry", "Payments": 5060.93}{"City": "highlandsRanch", "Specialty": "Chiropractic", "Payments": 7537.030000000001}{"City": "highlandsRanch", "Specialty": "Psychiatry", "Payments": 121547.96999999999}{"City": "highlandsRanch", "Specialty": "Speech Language Pathologist", "Payments": 13007.22}{"City": "highlandsRanch", "Specialty": "Ophthalmology", "Payments": 221154.77}{"City": "highlandsRanch", "Specialty": "Preventive Medicine", "Payments": 7573.43}{"City": "highlandsRanch", "Specialty": "Cardiology", "Payments": 110452.62}{"City": "highlandsRanch", "Specialty": "Nurse Practitioner", "Payments": 41238.32}{"City": "highlandsRanch", "Specialty": "CRNA", "Payments": 4716.07}{"City": "highlandsRanch", "Specialty": "Physician Assistant", "Payments": 5120.64}{"City": "highlandsRanch", "Specialty": "Mass Immunization Roster Biller", "Payments": 35914.07}{"City": "highlandsRanch", "Specialty": "Clinical Laboratory", "Payments": 153.0}{"City": "highlandsRanch", "Specialty": "Neurology", "Payments": 54942.59}{"City": "lakewood", "Specialty": "Urology", "Payments": 252420.77999999997}{"City": "lakewood", "Specialty": "Anesthesiology", "Payments": 145153.41999999998}{"City": "lakewood", "Specialty": "Radiation Oncology", "Payments": 66155.5}{"City": "lakewood", "Specialty": "Pulmonary Disease", "Payments": 435941.86}{"City": "lakewood", "Specialty": "CRNA", "Payments": 121304.77}{"City": "lakewood", "Specialty": "Ambulatory Surgical Center", "Payments": 1403157.07}{"City": "lakewood", "Specialty": "Ambulance Service Supplier", "Payments": 1004831.85}{"City": "lakewood", "Specialty": "Clinical Laboratory", "Payments": 506071.65}{"City": "lakewood", "Specialty": "Orthopedic Surgery", "Payments": 132355.58}{"City": "lakewood", "Specialty": "Optometry", "Payments": 203467.64}{"City": "lakewood", "Specialty": "Physical Medicine and Rehabilitation", "Payments": 234306.13}{"City": "lakewood", "Specialty": "Clinical Psychologist", "Payments": 185290.19}{"City": "lakewood", "Specialty": "Cardiology", "Payments": 308670.3}{"City": "lakewood", "Specialty": "Family Practice", "Payments": 1494068.32}{"City": "lakewood", "Specialty": "Ophthalmology", "Payments": 494452.79000000004}{"City": "lakewood", "Specialty": "Diagnostic Radiology", "Payments": 1396995.0599999998}{"City": "lakewood", "Specialty": "Medical Oncology", "Payments": 1665083.61}{"City": "lakewood", "Specialty": "Occupational therapist", "Payments": 33517.57}{"City": "lakewood", "Specialty": "Chiropractic", "Payments": 57696.17}{"City": "lakewood", "Specialty": "Critical Care (Intensivists)", "Payments": 753570.5200000001}{"City": "lakewood", "Specialty": "Nephrology", "Payments": 189624.18}{"City": "lakewood", "Specialty": "Speech Language Pathologist", "Payments": 20870.17}{"City": "lakewood", "Specialty": "Otolaryngology", "Payments": 62852.86}{"City": "lakewood", "Specialty": "Psychiatry", "Payments": 33426.64}{"City": "lakewood", "Specialty": "Obstetrics/Gynecology", "Payments": 34087.08}{"City": "lakewood", "Specialty": "Hematology/Oncology", "Payments": 867696.9}{"City": "lakewood", "Specialty": "Internal Medicine", "Payments": 1358161.0399999998}{"City": "lakewood", "Specialty": "Podiatry", "Payments": 199566.11}{"City": "lakewood", "Specialty": "Gastroenterology", "Payments": 374495.42}{"City": "lakewood", "Specialty": "Emergency Medicine", "Payments": 1253147.8299999996}{"City": "lakewood", "Specialty": "Endocrinology", "Payments": 68082.64}{"City": "lakewood", "Specialty": "Rheumatology", "Payments": 983241.02}{"City": "lakewood", "Specialty": "Physical Therapist", "Payments": 107004.39000000001}{"City": "lakewood", "Specialty": "Neurology", "Payments": 257391.26}{"City": "lakewood", "Specialty": "Geriatric Medicine", "Payments": 59037.22}{"City": "lakewood", "Specialty": "Nurse Practitioner", "Payments": 52836.259999999995}{"City": "lakewood", "Specialty": "Dermatology", "Payments": 1505487.29}{"City": "lakewood", "Specialty": "Independent Diagnostic Testing Facility", "Payments": 455684.69}{"City": "lakewood", "Specialty": "Pathology", "Payments": 121040.85}{"City": "lakewood", "Specialty": "Physician Assistant", "Payments": 94478.11}{"City": "lakewood", "Specialty": "Allergy/Immunology", "Payments": 102843.25}{"City": "longmont", "Specialty": "Interventional Pain Management", "Payments": 66381.41}{"City": "longmont", "Specialty": "Urology", "Payments": 289014.8}{"City": "longmont", "Specialty": "Anesthesiology", "Payments": 159393.7}{"City": "longmont", "Specialty": "Radiation Oncology", "Payments": 71744.42}{"City": "longmont", "Specialty": "Pulmonary Disease", "Payments": 698506.46}{"City": "longmont", "Specialty": "Ambulatory Surgical Center", "Payments": 1268196.34}{"City": "longmont", "Specialty": "Ambulance Service Supplier", "Payments": 127924.3}{"City": "longmont", "Specialty": "Orthopedic Surgery", "Payments": 759397.05}{"City": "longmont", "Specialty": "Optometry", "Payments": 122375.8}{"City": "longmont", "Specialty": "Licensed Clinical Social Worker", "Payments": 80739.76999999999}{"City": "longmont", "Specialty": "Physical Medicine and Rehabilitation", "Payments": 66783.34}{"City": "longmont", "Specialty": "Gastroenterology", "Payments": 836411.24}{"City": "longmont", "Specialty": "Cardiology", "Payments": 1004337.87}{"City": "longmont", "Specialty": "Obstetrics/Gynecology", "Payments": 42204.159999999996}{"City": "longmont", "Specialty": "Family Practice", "Payments": 2312853.7900000005}{"City": "longmont", "Specialty": "Hand Surgery", "Payments": 73466.93}{"City": "longmont", "Specialty": "Diagnostic Radiology", "Payments": 390211.24}{"City": "longmont", "Specialty": "Ophthalmology", "Payments": 5630822.23}{"City": "longmont", "Specialty": "Neurology", "Payments": 438603.13}{"City": "longmont", "Specialty": "Vascular Surgery", "Payments": 62653.52}{"City": "longmont", "Specialty": "Chiropractic", "Payments": 183852.73999999996}{"City": "longmont", "Specialty": "Nephrology", "Payments": 101878.36}{"City": "longmont", "Specialty": "Otolaryngology", "Payments": 283995.21}{"City": "longmont", "Specialty": "Psychiatry", "Payments": 83403.06999999999}{"City": "longmont", "Specialty": "Mass Immunization Roster Biller", "Payments": 65552.12}{"City": "longmont", "Specialty": "Pathology", "Payments": 121084.64}{"City": "longmont", "Specialty": "Hematology/Oncology", "Payments": 1316336.83}{"City": "longmont", "Specialty": "Internal Medicine", "Payments": 925344.98}{"City": "longmont", "Specialty": "Podiatry", "Payments": 121244.78}{"City": "longmont", "Specialty": "Physician Assistant", "Payments": 177002.75999999998}{"City": "longmont", "Specialty": "Clinical Psychologist", "Payments": 56661.340000000004}{"City": "longmont", "Specialty": "Emergency Medicine", "Payments": 127695.05}{"City": "longmont", "Specialty": "Endocrinology", "Payments": 213508.55}{"City": "longmont", "Specialty": "Rheumatology", "Payments": 836572.93}{"City": "longmont", "Specialty": "Physical Therapist", "Payments": 374481.35}{"City": "longmont", "Specialty": "Preventive Medicine", "Payments": 75342.93}{"City": "longmont", "Specialty": "Nurse Practitioner", "Payments": 52903.78}{"City": "longmont", "Specialty": "Dermatology", "Payments": 413223.12}{"City": "longmont", "Specialty": "Independent Diagnostic Testing Facility", "Payments": 236765.02}{"City": "longmont", "Specialty": "General Surgery", "Payments": 81721.31}{"City": "longmont", "Specialty": "Infectious Disease", "Payments": 105656.87}{"City": "louisville", "Specialty": "CRNA", "Payments": 14127.550000000001}{"City": "louisville", "Specialty": "Ambulatory Surgical Center", "Payments": 124078.26}{"City": "louisville", "Specialty": "Ambulance Service Supplier", "Payments": 71961.25}{"City": "louisville", "Specialty": "Orthopedic Surgery", "Payments": 551984.63}{"City": "louisville", "Specialty": "Optometry", "Payments": 120861.47000000002}{"City": "louisville", "Specialty": "Clinical Psychologist", "Payments": 3518.78}{"City": "louisville", "Specialty": "Physical Therapist", "Payments": 214096.37999999995}{"City": "louisville", "Specialty": "Obstetrics/Gynecology", "Payments": 1425.16}{"City": "louisville", "Specialty": "Family Practice", "Payments": 335405.21}{"City": "louisville", "Specialty": "Ophthalmology", "Payments": 2100992.0}{"City": "louisville", "Specialty": "Chiropractic", "Payments": 14682.8}{"City": "louisville", "Specialty": "Plastic and Reconstructive Surgery", "Payments": 44713.84}{"City": "louisville", "Specialty": "Psychiatry", "Payments": 37051.079999999994}{"City": "louisville", "Specialty": "Mass Immunization Roster Biller", "Payments": 11609.33}{"City": "louisville", "Specialty": "Internal Medicine", "Payments": 103712.13}{"City": "louisville", "Specialty": "Podiatry", "Payments": 65756.58}{"City": "louisville", "Specialty": "Emergency Medicine", "Payments": 26436.53}{"City": "louisville", "Specialty": "Endocrinology", "Payments": 120907.12}{"City": "louisville", "Specialty": "Neurology", "Payments": 51718.12}{"City": "louisville", "Specialty": "Nurse Practitioner", "Payments": 73663.67}{"City": "louisville", "Specialty": "Dermatology", "Payments": 71205.33}{"City": "louisville", "Specialty": "General Surgery", "Payments": 42902.44}{"City": "louisville", "Specialty": "Physician Assistant", "Payments": 60274.799999999996}{"City": "louisville", "Specialty": "Allergy/Immunology", "Payments": 16105.51}{"City": "loveland", "Specialty": "Cardiac Surgery", "Payments": 323510.30999999994}{"City": "loveland", "Specialty": "Anesthesiology", "Payments": 7787.54}{"City": "loveland", "Specialty": "Radiation Oncology", "Payments": 185875.2}{"City": "loveland", "Specialty": "Psychiatry", "Payments": 119918.53}{"City": "loveland", "Specialty": "Ambulatory Surgical Center", "Payments": 927235.02}{"City": "loveland", "Specialty": "Ambulance Service Supplier", "Payments": 1226851.77}{"City": "loveland", "Specialty": "Clinical Laboratory", "Payments": 5108854.91}{"City": "loveland", "Specialty": "Orthopedic Surgery", "Payments": 224938.68}{"City": "loveland", "Specialty": "Optometry", "Payments": 97652.73}{"City": "loveland", "Specialty": "Licensed Clinical Social Worker", "Payments": 8698.9}{"City": "loveland", "Specialty": "Gastroenterology", "Payments": 1234265.87}{"City": "loveland", "Specialty": "Physical Therapist", "Payments": 934734.2399999998}{"City": "loveland", "Specialty": "Obstetrics/Gynecology", "Payments": 76927.02}{"City": "loveland", "Specialty": "Family Practice", "Payments": 1013717.2100000003}{"City": "loveland", "Specialty": "Hematology", "Payments": 44892.73}{"City": "loveland", "Specialty": "Ophthalmology", "Payments": 811841.83}{"City": "loveland", "Specialty": "Certified Nurse Midwife", "Payments": 5624.13}{"City": "loveland", "Specialty": "Medical Oncology", "Payments": 67048.17}{"City": "loveland", "Specialty": "Occupational therapist", "Payments": 251372.05000000002}{"City": "loveland", "Specialty": "Chiropractic", "Payments": 224305.50000000003}{"City": "loveland", "Specialty": "Critical Care (Intensivists)", "Payments": 392983.31}{"City": "loveland", "Specialty": "Internal Medicine", "Payments": 1079612.18}{"City": "loveland", "Specialty": "Speech Language Pathologist", "Payments": 76629.66}{"City": "loveland", "Specialty": "Otolaryngology", "Payments": 72726.48}{"City": "loveland", "Specialty": "CRNA", "Payments": 43365.28}{"City": "loveland", "Specialty": "General Practice", "Payments": 82189.47}{"City": "loveland", "Specialty": "Mass Immunization Roster Biller", "Payments": 107434.26999999999}{"City": "loveland", "Specialty": "Pathology", "Payments": 487684.4}{"City": "loveland", "Specialty": "Geriatric Medicine", "Payments": 111759.39}{"City": "loveland", "Specialty": "Podiatry", "Payments": 46923.12}{"City": "loveland", "Specialty": "Clinical Psychologist", "Payments": 74123.45}{"City": "loveland", "Specialty": "Emergency Medicine", "Payments": 146104.33000000002}{"City": "loveland", "Specialty": "Endocrinology", "Payments": 53801.42}{"City": "loveland", "Specialty": "Cardiology", "Payments": 136281.61000000002}{"City": "loveland", "Specialty": "Neurosurgery", "Payments": 41970.02}{"City": "loveland", "Specialty": "Neurology", "Payments": 327181.58}{"City": "loveland", "Specialty": "Nurse Practitioner", "Payments": 51230.83}{"City": "loveland", "Specialty": "Dermatology", "Payments": 1647013.38}{"City": "loveland", "Specialty": "Independent Diagnostic Testing Facility", "Payments": 70685.39}{"City": "loveland", "Specialty": "General Surgery", "Payments": 98390.73000000001}{"City": "loveland", "Specialty": "Physician Assistant", "Payments": 86528.51000000001}{"City": "loveland", "Specialty": "Allergy/Immunology", "Payments": 39254.13}{"City": "westminster", "Specialty": "Urology", "Payments": 42347.22}{"City": "westminster", "Specialty": "CRNA", "Payments": 32905.33}{"City": "westminster", "Specialty": "Ambulatory Surgical Center", "Payments": 371279.88}{"City": "westminster", "Specialty": "Ambulance Service Supplier", "Payments": 341405.24}{"City": "westminster", "Specialty": "Clinical Laboratory", "Payments": 1389.37}{"City": "westminster", "Specialty": "Orthopedic Surgery", "Payments": 13441.81}{"City": "westminster", "Specialty": "Optometry", "Payments": 20624.18}{"City": "westminster", "Specialty": "Clinical Psychologist", "Payments": 127110.15000000001}{"City": "westminster", "Specialty": "Physical Therapist", "Payments": 276173.11}{"City": "westminster", "Specialty": "Obstetrics/Gynecology", "Payments": 1436.59}{"City": "westminster", "Specialty": "Family Practice", "Payments": 1184462.9800000004}{"City": "westminster", "Specialty": "Ophthalmology", "Payments": 439411.55000000005}{"City": "westminster", "Specialty": "Chiropractic", "Payments": 38857.93}{"City": "westminster", "Specialty": "Multispecialty Clinic/Group Practice", "Payments": 7076.31}{"City": "westminster", "Specialty": "Nephrology", "Payments": 549544.54}{"City": "westminster", "Specialty": "Psychiatry", "Payments": 20789.71}{"City": "westminster", "Specialty": "Mass Immunization Roster Biller", "Payments": 36314.91999999999}{"City": "westminster", "Specialty": "Internal Medicine", "Payments": 1051032.6199999999}{"City": "westminster", "Specialty": "Podiatry", "Payments": 49750.119999999995}{"City": "westminster", "Specialty": "Emergency Medicine", "Payments": 87274.0}{"City": "westminster", "Specialty": "Endocrinology", "Payments": 39292.57}{"City": "westminster", "Specialty": "Cardiology", "Payments": 473710.54}{"City": "westminster", "Specialty": "Nurse Practitioner", "Payments": 23496.4}{"City": "westminster", "Specialty": "Dermatology", "Payments": 279387.8}{"City": "westminster", "Specialty": "General Surgery", "Payments": 36794.81}{"City": "westminster", "Specialty": "Physician Assistant", "Payments": 150148.18}]
+[{
+    "City": "arvada",
+    "Specialty": "Gynecological/Oncology",
+    "Payments": 9557.65
+}, {
+    "City": "arvada",
+    "Specialty": "Clinical Laboratory",
+    "Payments": 853331.92
+}, {
+    "City": "arvada",
+    "Specialty": "Optometry",
+    "Payments": 69375.89
+}, {
+    "City": "arvada",
+    "Specialty": "Licensed Clinical Social Worker",
+    "Payments": 15673.04
+}, {
+    "City": "arvada",
+    "Specialty": "Physical Medicine and Rehabilitation",
+    "Payments": 29761.57
+}, {
+    "City": "arvada",
+    "Specialty": "Clinical Psychologist",
+    "Payments": 8566.87
+}, {
+    "City": "arvada",
+    "Specialty": "Physical Therapist",
+    "Payments": 265040.26
+}, {
+    "City": "arvada",
+    "Specialty": "Obstetrics/Gynecology",
+    "Payments": 10321.64
+}, {
+    "City": "arvada",
+    "Specialty": "Family Practice",
+    "Payments": 392989.49
+}, {
+    "City": "arvada",
+    "Specialty": "Ophthalmology",
+    "Payments": 352012.43
+}, {
+    "City": "arvada",
+    "Specialty": "Occupational therapist",
+    "Payments": 16264.46
+}, {
+    "City": "arvada",
+    "Specialty": "Chiropractic",
+    "Payments": 59468.02
+}, {
+    "City": "arvada",
+    "Specialty": "Nephrology",
+    "Payments": 563852.7200000001
+}, {
+    "City": "arvada",
+    "Specialty": "Otolaryngology",
+    "Payments": 89615.79000000001
+}, {
+    "City": "arvada",
+    "Specialty": "General Practice",
+    "Payments": 252393.31
+}, {
+    "City": "arvada",
+    "Specialty": "Mass Immunization Roster Biller",
+    "Payments": 70267.81
+}, {
+    "City": "arvada",
+    "Specialty": "Internal Medicine",
+    "Payments": 195128.97999999998
+}, {
+    "City": "arvada",
+    "Specialty": "Podiatry",
+    "Payments": 77585.15
+}, {
+    "City": "arvada",
+    "Specialty": "Emergency Medicine",
+    "Payments": 13628.17
+}, {
+    "City": "arvada",
+    "Specialty": "Interventional Pain Management",
+    "Payments": 75131.96
+}, {
+    "City": "arvada",
+    "Specialty": "Neurology",
+    "Payments": 74492.33
+}, {
+    "City": "arvada",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 25182.22
+}, {
+    "City": "arvada",
+    "Specialty": "Pathology",
+    "Payments": 319543.2799999999
+}, {
+    "City": "arvada",
+    "Specialty": "Physician Assistant",
+    "Payments": 109462.58
+}, {
+    "City": "aurora",
+    "Specialty": "Cardiac Surgery",
+    "Payments": 167826.75
+}, {
+    "City": "aurora",
+    "Specialty": "Anesthesiology",
+    "Payments": 321813.27
+}, {
+    "City": "aurora",
+    "Specialty": "Radiation Oncology",
+    "Payments": 1500199.64
+}, {
+    "City": "aurora",
+    "Specialty": "Pulmonary Disease",
+    "Payments": 113217.13
+}, {
+    "City": "aurora",
+    "Specialty": "Ambulance Service Supplier",
+    "Payments": 5081765.42
+}, {
+    "City": "aurora",
+    "Specialty": "Clinical Laboratory",
+    "Payments": 3359068.5399999996
+}, {
+    "City": "aurora",
+    "Specialty": "Orthopedic Surgery",
+    "Payments": 314596.1
+}, {
+    "City": "aurora",
+    "Specialty": "Slide Preparation Facility",
+    "Payments": 435850.92
+}, {
+    "City": "aurora",
+    "Specialty": "Physical Medicine and Rehabilitation",
+    "Payments": 113087.39
+}, {
+    "City": "aurora",
+    "Specialty": "Gastroenterology",
+    "Payments": 93017.9
+}, {
+    "City": "aurora",
+    "Specialty": "Cardiology",
+    "Payments": 4047562.7999999993
+}, {
+    "City": "aurora",
+    "Specialty": "Family Practice",
+    "Payments": 941703.96
+}, {
+    "City": "aurora",
+    "Specialty": "Ophthalmology",
+    "Payments": 2992548.2099999995
+}, {
+    "City": "aurora",
+    "Specialty": "Diagnostic Radiology",
+    "Payments": 868976.8300000001
+}, {
+    "City": "aurora",
+    "Specialty": "Internal Medicine",
+    "Payments": 4916079.780000001
+}, {
+    "City": "aurora",
+    "Specialty": "Critical Care (Intensivists)",
+    "Payments": 559784.07
+}, {
+    "City": "aurora",
+    "Specialty": "Nephrology",
+    "Payments": 1054968.49
+}, {
+    "City": "aurora",
+    "Specialty": "Portable X-ray",
+    "Payments": 155204.93
+}, {
+    "City": "aurora",
+    "Specialty": "Obstetrics/Gynecology",
+    "Payments": 845150.64
+}, {
+    "City": "aurora",
+    "Specialty": "Hematology/Oncology",
+    "Payments": 2197226.0900000003
+}, {
+    "City": "aurora",
+    "Specialty": "Geriatric Medicine",
+    "Payments": 601907.33
+}, {
+    "City": "aurora",
+    "Specialty": "Podiatry",
+    "Payments": 96420.28
+}, {
+    "City": "aurora",
+    "Specialty": "Infectious Disease",
+    "Payments": 1350197.24
+}, {
+    "City": "aurora",
+    "Specialty": "Emergency Medicine",
+    "Payments": 699304.5499999999
+}, {
+    "City": "aurora",
+    "Specialty": "Physical Therapist",
+    "Payments": 293130.66000000003
+}, {
+    "City": "aurora",
+    "Specialty": "Neurosurgery",
+    "Payments": 176403.46
+}, {
+    "City": "aurora",
+    "Specialty": "Neurology",
+    "Payments": 222548.2
+}, {
+    "City": "aurora",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 1186539.97
+}, {
+    "City": "aurora",
+    "Specialty": "Dermatology",
+    "Payments": 2884307.04
+}, {
+    "City": "aurora",
+    "Specialty": "Independent Diagnostic Testing Facility",
+    "Payments": 591714.24
+}, {
+    "City": "aurora",
+    "Specialty": "Physician Assistant",
+    "Payments": 1768850.0799999998
+}, {
+    "City": "boulder",
+    "Specialty": "Urology",
+    "Payments": 724002.26
+}, {
+    "City": "boulder",
+    "Specialty": "Anesthesiology",
+    "Payments": 47746.98
+}, {
+    "City": "boulder",
+    "Specialty": "Radiation Oncology",
+    "Payments": 999215.3200000001
+}, {
+    "City": "boulder",
+    "Specialty": "Pulmonary Disease",
+    "Payments": 309528.19999999995
+}, {
+    "City": "boulder",
+    "Specialty": "Ambulatory Surgical Center",
+    "Payments": 569832.41
+}, {
+    "City": "boulder",
+    "Specialty": "Ambulance Service Supplier",
+    "Payments": 1083324.46
+}, {
+    "City": "boulder",
+    "Specialty": "Orthopedic Surgery",
+    "Payments": 595144.8799999999
+}, {
+    "City": "boulder",
+    "Specialty": "Physical Medicine and Rehabilitation",
+    "Payments": 902054.6799999999
+}, {
+    "City": "boulder",
+    "Specialty": "Gastroenterology",
+    "Payments": 273253.83999999997
+}, {
+    "City": "boulder",
+    "Specialty": "Cardiology",
+    "Payments": 2073147.09
+}, {
+    "City": "boulder",
+    "Specialty": "Family Practice",
+    "Payments": 709673.8599999998
+}, {
+    "City": "boulder",
+    "Specialty": "Ophthalmology",
+    "Payments": 1897718.25
+}, {
+    "City": "boulder",
+    "Specialty": "Neurology",
+    "Payments": 435376.66000000003
+}, {
+    "City": "boulder",
+    "Specialty": "Medical Oncology",
+    "Payments": 781973.21
+}, {
+    "City": "boulder",
+    "Specialty": "Speech Language Pathologist",
+    "Payments": 28952.32
+}, {
+    "City": "boulder",
+    "Specialty": "Otolaryngology",
+    "Payments": 208884.62
+}, {
+    "City": "boulder",
+    "Specialty": "Psychiatry",
+    "Payments": 96523.42
+}, {
+    "City": "boulder",
+    "Specialty": "General Practice",
+    "Payments": 106496.26
+}, {
+    "City": "boulder",
+    "Specialty": "Obstetrics/Gynecology",
+    "Payments": 30590.35
+}, {
+    "City": "boulder",
+    "Specialty": "General Surgery",
+    "Payments": 237061.01
+}, {
+    "City": "boulder",
+    "Specialty": "Hematology/Oncology",
+    "Payments": 1107772.8
+}, {
+    "City": "boulder",
+    "Specialty": "Internal Medicine",
+    "Payments": 1233757.3199999998
+}, {
+    "City": "boulder",
+    "Specialty": "Podiatry",
+    "Payments": 88740.59
+}, {
+    "City": "boulder",
+    "Specialty": "Infectious Disease",
+    "Payments": 112120.37
+}, {
+    "City": "boulder",
+    "Specialty": "Clinical Psychologist",
+    "Payments": 88806.69
+}, {
+    "City": "boulder",
+    "Specialty": "Emergency Medicine",
+    "Payments": 85228.35
+}, {
+    "City": "boulder",
+    "Specialty": "Endocrinology",
+    "Payments": 76066.3
+}, {
+    "City": "boulder",
+    "Specialty": "Rheumatology",
+    "Payments": 322028.95999999996
+}, {
+    "City": "boulder",
+    "Specialty": "Physical Therapist",
+    "Payments": 1064766.92
+}, {
+    "City": "boulder",
+    "Specialty": "Neurosurgery",
+    "Payments": 245361.13
+}, {
+    "City": "boulder",
+    "Specialty": "Diagnostic Radiology",
+    "Payments": 773078.7799999999
+}, {
+    "City": "boulder",
+    "Specialty": "Geriatric Medicine",
+    "Payments": 405328.35
+}, {
+    "City": "boulder",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 71559.36
+}, {
+    "City": "boulder",
+    "Specialty": "Dermatology",
+    "Payments": 1152034.82
+}, {
+    "City": "boulder",
+    "Specialty": "Independent Diagnostic Testing Facility",
+    "Payments": 28634.7
+}, {
+    "City": "boulder",
+    "Specialty": "Pathology",
+    "Payments": 386472.42000000004
+}, {
+    "City": "boulder",
+    "Specialty": "Physician Assistant",
+    "Payments": 277788.08999999997
+}, {
+    "City": "boulder",
+    "Specialty": "Interventional Radiology",
+    "Payments": 35279.94
+}, {
+    "City": "boulder",
+    "Specialty": "Allergy/Immunology",
+    "Payments": 35699.86
+}, {
+    "City": "broomfield",
+    "Specialty": "Pulmonary Disease",
+    "Payments": 54361.31
+}, {
+    "City": "broomfield",
+    "Specialty": "Ambulance Service Supplier",
+    "Payments": 116226.05
+}, {
+    "City": "broomfield",
+    "Specialty": "Orthopedic Surgery",
+    "Payments": 36582.91
+}, {
+    "City": "broomfield",
+    "Specialty": "Optometry",
+    "Payments": 117833.46
+}, {
+    "City": "broomfield",
+    "Specialty": "Slide Preparation Facility",
+    "Payments": 128260.61
+}, {
+    "City": "broomfield",
+    "Specialty": "Clinical Psychologist",
+    "Payments": 10445.83
+}, {
+    "City": "broomfield",
+    "Specialty": "Physical Therapist",
+    "Payments": 405479.6599999999
+}, {
+    "City": "broomfield",
+    "Specialty": "Obstetrics/Gynecology",
+    "Payments": 1491.5
+}, {
+    "City": "broomfield",
+    "Specialty": "Family Practice",
+    "Payments": 200797.61000000002
+}, {
+    "City": "broomfield",
+    "Specialty": "Pain Management",
+    "Payments": 43113.3
+}, {
+    "City": "broomfield",
+    "Specialty": "Chiropractic",
+    "Payments": 51540.060000000005
+}, {
+    "City": "broomfield",
+    "Specialty": "Plastic and Reconstructive Surgery",
+    "Payments": 41061.92
+}, {
+    "City": "broomfield",
+    "Specialty": "Otolaryngology",
+    "Payments": 47042.08
+}, {
+    "City": "broomfield",
+    "Specialty": "CRNA",
+    "Payments": 19146.11
+}, {
+    "City": "broomfield",
+    "Specialty": "Mass Immunization Roster Biller",
+    "Payments": 27319.66
+}, {
+    "City": "broomfield",
+    "Specialty": "Physical Medicine and Rehabilitation",
+    "Payments": 32553.25
+}, {
+    "City": "broomfield",
+    "Specialty": "Internal Medicine",
+    "Payments": 454275.86
+}, {
+    "City": "broomfield",
+    "Specialty": "Podiatry",
+    "Payments": 39772.94
+}, {
+    "City": "broomfield",
+    "Specialty": "Emergency Medicine",
+    "Payments": 37793.22
+}, {
+    "City": "broomfield",
+    "Specialty": "Interventional Pain Management",
+    "Payments": 18358.82
+}, {
+    "City": "broomfield",
+    "Specialty": "Diagnostic Radiology",
+    "Payments": 51183.91
+}, {
+    "City": "broomfield",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 14017.9
+}, {
+    "City": "broomfield",
+    "Specialty": "Dermatology",
+    "Payments": 134162.41
+}, {
+    "City": "broomfield",
+    "Specialty": "Physician Assistant",
+    "Payments": 14416.45
+}, {
+    "City": "denver",
+    "Specialty": "Urology",
+    "Payments": 1892844.48
+}, {
+    "City": "denver",
+    "Specialty": "Anesthesiology",
+    "Payments": 131487.14
+}, {
+    "City": "denver",
+    "Specialty": "Radiation Oncology",
+    "Payments": 1753486.2700000003
+}, {
+    "City": "denver",
+    "Specialty": "Pulmonary Disease",
+    "Payments": 319551.69
+}, {
+    "City": "denver",
+    "Specialty": "Ambulatory Surgical Center",
+    "Payments": 6240836.409999999
+}, {
+    "City": "denver",
+    "Specialty": "Ambulance Service Supplier",
+    "Payments": 4272731.95
+}, {
+    "City": "denver",
+    "Specialty": "Clinical Laboratory",
+    "Payments": 29008038.77
+}, {
+    "City": "denver",
+    "Specialty": "Orthopedic Surgery",
+    "Payments": 2449802.79
+}, {
+    "City": "denver",
+    "Specialty": "Clinical Psychologist",
+    "Payments": 218306.96
+}, {
+    "City": "denver",
+    "Specialty": "Cardiology",
+    "Payments": 2164101.3299999996
+}, {
+    "City": "denver",
+    "Specialty": "Family Practice",
+    "Payments": 699562.16
+}, {
+    "City": "denver",
+    "Specialty": "Hand Surgery",
+    "Payments": 123030.13
+}, {
+    "City": "denver",
+    "Specialty": "Ophthalmology",
+    "Payments": 10040279.520000001
+}, {
+    "City": "denver",
+    "Specialty": "Diagnostic Radiology",
+    "Payments": 790075.2400000001
+}, {
+    "City": "denver",
+    "Specialty": "Vascular Surgery",
+    "Payments": 436385.13999999996
+}, {
+    "City": "denver",
+    "Specialty": "Medical Oncology",
+    "Payments": 1061801.94
+}, {
+    "City": "denver",
+    "Specialty": "Pain Management",
+    "Payments": 130228.9
+}, {
+    "City": "denver",
+    "Specialty": "Nephrology",
+    "Payments": 3653864.2600000002
+}, {
+    "City": "denver",
+    "Specialty": "Dermatology",
+    "Payments": 3639895.0600000005
+}, {
+    "City": "denver",
+    "Specialty": "Otolaryngology",
+    "Payments": 1323966.66
+}, {
+    "City": "denver",
+    "Specialty": "Obstetrics/Gynecology",
+    "Payments": 245571.79
+}, {
+    "City": "denver",
+    "Specialty": "Hematology/Oncology",
+    "Payments": 5466138.22
+}, {
+    "City": "denver",
+    "Specialty": "Internal Medicine",
+    "Payments": 2638897.3899999997
+}, {
+    "City": "denver",
+    "Specialty": "Podiatry",
+    "Payments": 246581.32
+}, {
+    "City": "denver",
+    "Specialty": "Infectious Disease",
+    "Payments": 178357.76
+}, {
+    "City": "denver",
+    "Specialty": "Emergency Medicine",
+    "Payments": 243698.5
+}, {
+    "City": "denver",
+    "Specialty": "Rheumatology",
+    "Payments": 6829236.780000001
+}, {
+    "City": "denver",
+    "Specialty": "Physical Therapist",
+    "Payments": 376612.01
+}, {
+    "City": "denver",
+    "Specialty": "Neurology",
+    "Payments": 647763.0499999999
+}, {
+    "City": "denver",
+    "Specialty": "Geriatric Medicine",
+    "Payments": 264886.09
+}, {
+    "City": "denver",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 121249.54
+}, {
+    "City": "denver",
+    "Specialty": "Portable X-ray",
+    "Payments": 2700988.88
+}, {
+    "City": "denver",
+    "Specialty": "Pathology",
+    "Payments": 150899.12
+}, {
+    "City": "denver",
+    "Specialty": "Physician Assistant",
+    "Payments": 240319.97
+}, {
+    "City": "denver",
+    "Specialty": "Interventional Radiology",
+    "Payments": 158488.94
+}, {
+    "City": "fortCollins",
+    "Specialty": "Interventional Pain Management",
+    "Payments": 631421.46
+}, {
+    "City": "fortCollins",
+    "Specialty": "Urology",
+    "Payments": 864583.2899999999
+}, {
+    "City": "fortCollins",
+    "Specialty": "Radiation Oncology",
+    "Payments": 387154.11
+}, {
+    "City": "fortCollins",
+    "Specialty": "Pulmonary Disease",
+    "Payments": 96624.91
+}, {
+    "City": "fortCollins",
+    "Specialty": "Ambulatory Surgical Center",
+    "Payments": 5028546.410000001
+}, {
+    "City": "fortCollins",
+    "Specialty": "Clinical Laboratory",
+    "Payments": 92802.28
+}, {
+    "City": "fortCollins",
+    "Specialty": "Orthopedic Surgery",
+    "Payments": 3402024.1699999995
+}, {
+    "City": "fortCollins",
+    "Specialty": "Physical Medicine and Rehabilitation",
+    "Payments": 284960.02
+}, {
+    "City": "fortCollins",
+    "Specialty": "Clinical Psychologist",
+    "Payments": 343851.87
+}, {
+    "City": "fortCollins",
+    "Specialty": "Cardiology",
+    "Payments": 2600693.26
+}, {
+    "City": "fortCollins",
+    "Specialty": "Family Practice",
+    "Payments": 1032667.3100000002
+}, {
+    "City": "fortCollins",
+    "Specialty": "Ophthalmology",
+    "Payments": 4644871.56
+}, {
+    "City": "fortCollins",
+    "Specialty": "Neurology",
+    "Payments": 1656168.4400000002
+}, {
+    "City": "fortCollins",
+    "Specialty": "Medical Oncology",
+    "Payments": 636703.98
+}, {
+    "City": "fortCollins",
+    "Specialty": "Occupational therapist",
+    "Payments": 422882.27
+}, {
+    "City": "fortCollins",
+    "Specialty": "Cardiac Electrophysiology",
+    "Payments": 170917.74
+}, {
+    "City": "fortCollins",
+    "Specialty": "Critical Care (Intensivists)",
+    "Payments": 650667.61
+}, {
+    "City": "fortCollins",
+    "Specialty": "Nephrology",
+    "Payments": 146460.12
+}, {
+    "City": "fortCollins",
+    "Specialty": "Otolaryngology",
+    "Payments": 378949.95
+}, {
+    "City": "fortCollins",
+    "Specialty": "CRNA",
+    "Payments": 145070.91999999998
+}, {
+    "City": "fortCollins",
+    "Specialty": "Pathology",
+    "Payments": 224223.55
+}, {
+    "City": "fortCollins",
+    "Specialty": "Hematology/Oncology",
+    "Payments": 2171615.28
+}, {
+    "City": "fortCollins",
+    "Specialty": "Internal Medicine",
+    "Payments": 2955177.3100000005
+}, {
+    "City": "fortCollins",
+    "Specialty": "Podiatry",
+    "Payments": 741843.82
+}, {
+    "City": "fortCollins",
+    "Specialty": "Infectious Disease",
+    "Payments": 345120.17
+}, {
+    "City": "fortCollins",
+    "Specialty": "Gastroenterology",
+    "Payments": 671634.17
+}, {
+    "City": "fortCollins",
+    "Specialty": "Emergency Medicine",
+    "Payments": 698093.3200000001
+}, {
+    "City": "fortCollins",
+    "Specialty": "Rheumatology",
+    "Payments": 813755.82
+}, {
+    "City": "fortCollins",
+    "Specialty": "Physical Therapist",
+    "Payments": 450937.49
+}, {
+    "City": "fortCollins",
+    "Specialty": "Neurosurgery",
+    "Payments": 467793.52
+}, {
+    "City": "fortCollins",
+    "Specialty": "Diagnostic Radiology",
+    "Payments": 1828258.08
+}, {
+    "City": "fortCollins",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 201565.36
+}, {
+    "City": "fortCollins",
+    "Specialty": "Dermatology",
+    "Payments": 2195784.5300000003
+}, {
+    "City": "fortCollins",
+    "Specialty": "Independent Diagnostic Testing Facility",
+    "Payments": 1794098.98
+}, {
+    "City": "fortCollins",
+    "Specialty": "General Surgery",
+    "Payments": 169376.3
+}, {
+    "City": "fortCollins",
+    "Specialty": "Physician Assistant",
+    "Payments": 103238.05
+}, {
+    "City": "fortCollins",
+    "Specialty": "Interventional Radiology",
+    "Payments": 79043.4
+}, {
+    "City": "fortCollins",
+    "Specialty": "Allergy/Immunology",
+    "Payments": 60187.91
+}, {
+    "City": "golden",
+    "Specialty": "Sports Medicine",
+    "Payments": 441816.39
+}, {
+    "City": "golden",
+    "Specialty": "Family Practice",
+    "Payments": 483303.91
+}, {
+    "City": "golden",
+    "Specialty": "Ambulatory Surgical Center",
+    "Payments": 1102634.49
+}, {
+    "City": "golden",
+    "Specialty": "Orthopedic Surgery",
+    "Payments": 1265962.8299999996
+}, {
+    "City": "golden",
+    "Specialty": "Optometry",
+    "Payments": 22394.020000000004
+}, {
+    "City": "golden",
+    "Specialty": "Licensed Clinical Social Worker",
+    "Payments": 56395.41
+}, {
+    "City": "golden",
+    "Specialty": "Physical Medicine and Rehabilitation",
+    "Payments": 186062.61
+}, {
+    "City": "golden",
+    "Specialty": "Physical Therapist",
+    "Payments": 597446.69
+}, {
+    "City": "golden",
+    "Specialty": "Anesthesiology",
+    "Payments": 376956.2800000001
+}, {
+    "City": "golden",
+    "Specialty": "Ophthalmology",
+    "Payments": 292175.63
+}, {
+    "City": "golden",
+    "Specialty": "Hand Surgery",
+    "Payments": 76040.39
+}, {
+    "City": "golden",
+    "Specialty": "Occupational therapist",
+    "Payments": 44870.020000000004
+}, {
+    "City": "golden",
+    "Specialty": "Chiropractic",
+    "Payments": 4485.52
+}, {
+    "City": "golden",
+    "Specialty": "Pain Management",
+    "Payments": 89605.53
+}, {
+    "City": "golden",
+    "Specialty": "CRNA",
+    "Payments": 86811.87000000001
+}, {
+    "City": "golden",
+    "Specialty": "General Practice",
+    "Payments": 49095.91
+}, {
+    "City": "golden",
+    "Specialty": "Mass Immunization Roster Biller",
+    "Payments": 20717.67
+}, {
+    "City": "golden",
+    "Specialty": "Hematology/Oncology",
+    "Payments": 827675.4
+}, {
+    "City": "golden",
+    "Specialty": "Internal Medicine",
+    "Payments": 136052.11
+}, {
+    "City": "golden",
+    "Specialty": "Emergency Medicine",
+    "Payments": 33094.77
+}, {
+    "City": "golden",
+    "Specialty": "Osteopathic Manipulative Medicine",
+    "Payments": 43382.06
+}, {
+    "City": "golden",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 525.14
+}, {
+    "City": "golden",
+    "Specialty": "Dermatology",
+    "Payments": 198268.13
+}, {
+    "City": "golden",
+    "Specialty": "Physician Assistant",
+    "Payments": 257618.56000000006
+}, {
+    "City": "greeley",
+    "Specialty": "Interventional Pain Management",
+    "Payments": 413174.44
+}, {
+    "City": "greeley",
+    "Specialty": "Urology",
+    "Payments": 371537.86
+}, {
+    "City": "greeley",
+    "Specialty": "Cardiac Surgery",
+    "Payments": 102158.16
+}, {
+    "City": "greeley",
+    "Specialty": "Anesthesiology",
+    "Payments": 168426.8
+}, {
+    "City": "greeley",
+    "Specialty": "Radiation Oncology",
+    "Payments": 168841.23
+}, {
+    "City": "greeley",
+    "Specialty": "Pulmonary Disease",
+    "Payments": 356383.84
+}, {
+    "City": "greeley",
+    "Specialty": "Ambulatory Surgical Center",
+    "Payments": 611820.32
+}, {
+    "City": "greeley",
+    "Specialty": "Ambulance Service Supplier",
+    "Payments": 1161523.45
+}, {
+    "City": "greeley",
+    "Specialty": "Orthopedic Surgery",
+    "Payments": 846006.75
+}, {
+    "City": "greeley",
+    "Specialty": "Physical Medicine and Rehabilitation",
+    "Payments": 180094.22999999998
+}, {
+    "City": "greeley",
+    "Specialty": "Gastroenterology",
+    "Payments": 310598.41
+}, {
+    "City": "greeley",
+    "Specialty": "Cardiology",
+    "Payments": 1421104.3299999998
+}, {
+    "City": "greeley",
+    "Specialty": "Mass Immunization Roster Biller",
+    "Payments": 24667.02
+}, {
+    "City": "greeley",
+    "Specialty": "Family Practice",
+    "Payments": 1848036.1699999997
+}, {
+    "City": "greeley",
+    "Specialty": "Ophthalmology",
+    "Payments": 2999191.6000000006
+}, {
+    "City": "greeley",
+    "Specialty": "Diagnostic Radiology",
+    "Payments": 272612.38
+}, {
+    "City": "greeley",
+    "Specialty": "Medical Oncology",
+    "Payments": 79509.92
+}, {
+    "City": "greeley",
+    "Specialty": "Chiropractic",
+    "Payments": 143447.75
+}, {
+    "City": "greeley",
+    "Specialty": "Otolaryngology",
+    "Payments": 221342.16
+}, {
+    "City": "greeley",
+    "Specialty": "Psychiatry",
+    "Payments": 122696.98000000001
+}, {
+    "City": "greeley",
+    "Specialty": "Public Health Welfare Agency",
+    "Payments": 35442.31
+}, {
+    "City": "greeley",
+    "Specialty": "Pathology",
+    "Payments": 285952.72
+}, {
+    "City": "greeley",
+    "Specialty": "Hematology/Oncology",
+    "Payments": 180306.41999999998
+}, {
+    "City": "greeley",
+    "Specialty": "Internal Medicine",
+    "Payments": 1620557.68
+}, {
+    "City": "greeley",
+    "Specialty": "Podiatry",
+    "Payments": 158377.21
+}, {
+    "City": "greeley",
+    "Specialty": "Clinical Psychologist",
+    "Payments": 29196.38
+}, {
+    "City": "greeley",
+    "Specialty": "Emergency Medicine",
+    "Payments": 321081.69999999995
+}, {
+    "City": "greeley",
+    "Specialty": "Rheumatology",
+    "Payments": 2029314.29
+}, {
+    "City": "greeley",
+    "Specialty": "Physical Therapist",
+    "Payments": 458393.45999999996
+}, {
+    "City": "greeley",
+    "Specialty": "Neurology",
+    "Payments": 567390.46
+}, {
+    "City": "greeley",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 317055.10000000003
+}, {
+    "City": "greeley",
+    "Specialty": "Dermatology",
+    "Payments": 270896.79
+}, {
+    "City": "greeley",
+    "Specialty": "General Surgery",
+    "Payments": 329096.76999999996
+}, {
+    "City": "greeley",
+    "Specialty": "Physician Assistant",
+    "Payments": 729473.4500000003
+}, {
+    "City": "greeley",
+    "Specialty": "Allergy/Immunology",
+    "Payments": 61832.24
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Internal Medicine",
+    "Payments": 378989.68
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Optometry",
+    "Payments": 108546.84
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "General Practice",
+    "Payments": 72729.57
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Licensed Clinical Social Worker",
+    "Payments": 23290.49
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Physical Therapist",
+    "Payments": 286710.44999999995
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Rheumatology",
+    "Payments": 852599.99
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Emergency Medicine",
+    "Payments": 98820.81
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Family Practice",
+    "Payments": 348136.37000000005
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Podiatry",
+    "Payments": 5060.93
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Chiropractic",
+    "Payments": 7537.030000000001
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Psychiatry",
+    "Payments": 121547.96999999999
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Speech Language Pathologist",
+    "Payments": 13007.22
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Ophthalmology",
+    "Payments": 221154.77
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Preventive Medicine",
+    "Payments": 7573.43
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Cardiology",
+    "Payments": 110452.62
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 41238.32
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "CRNA",
+    "Payments": 4716.07
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Physician Assistant",
+    "Payments": 5120.64
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Mass Immunization Roster Biller",
+    "Payments": 35914.07
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Clinical Laboratory",
+    "Payments": 153.0
+}, {
+    "City": "highlandsRanch",
+    "Specialty": "Neurology",
+    "Payments": 54942.59
+}, {
+    "City": "lakewood",
+    "Specialty": "Urology",
+    "Payments": 252420.77999999997
+}, {
+    "City": "lakewood",
+    "Specialty": "Anesthesiology",
+    "Payments": 145153.41999999998
+}, {
+    "City": "lakewood",
+    "Specialty": "Radiation Oncology",
+    "Payments": 66155.5
+}, {
+    "City": "lakewood",
+    "Specialty": "Pulmonary Disease",
+    "Payments": 435941.86
+}, {
+    "City": "lakewood",
+    "Specialty": "CRNA",
+    "Payments": 121304.77
+}, {
+    "City": "lakewood",
+    "Specialty": "Ambulatory Surgical Center",
+    "Payments": 1403157.07
+}, {
+    "City": "lakewood",
+    "Specialty": "Ambulance Service Supplier",
+    "Payments": 1004831.85
+}, {
+    "City": "lakewood",
+    "Specialty": "Clinical Laboratory",
+    "Payments": 506071.65
+}, {
+    "City": "lakewood",
+    "Specialty": "Orthopedic Surgery",
+    "Payments": 132355.58
+}, {
+    "City": "lakewood",
+    "Specialty": "Optometry",
+    "Payments": 203467.64
+}, {
+    "City": "lakewood",
+    "Specialty": "Physical Medicine and Rehabilitation",
+    "Payments": 234306.13
+}, {
+    "City": "lakewood",
+    "Specialty": "Clinical Psychologist",
+    "Payments": 185290.19
+}, {
+    "City": "lakewood",
+    "Specialty": "Cardiology",
+    "Payments": 308670.3
+}, {
+    "City": "lakewood",
+    "Specialty": "Family Practice",
+    "Payments": 1494068.32
+}, {
+    "City": "lakewood",
+    "Specialty": "Ophthalmology",
+    "Payments": 494452.79000000004
+}, {
+    "City": "lakewood",
+    "Specialty": "Diagnostic Radiology",
+    "Payments": 1396995.0599999998
+}, {
+    "City": "lakewood",
+    "Specialty": "Medical Oncology",
+    "Payments": 1665083.61
+}, {
+    "City": "lakewood",
+    "Specialty": "Occupational therapist",
+    "Payments": 33517.57
+}, {
+    "City": "lakewood",
+    "Specialty": "Chiropractic",
+    "Payments": 57696.17
+}, {
+    "City": "lakewood",
+    "Specialty": "Critical Care (Intensivists)",
+    "Payments": 753570.5200000001
+}, {
+    "City": "lakewood",
+    "Specialty": "Nephrology",
+    "Payments": 189624.18
+}, {
+    "City": "lakewood",
+    "Specialty": "Speech Language Pathologist",
+    "Payments": 20870.17
+}, {
+    "City": "lakewood",
+    "Specialty": "Otolaryngology",
+    "Payments": 62852.86
+}, {
+    "City": "lakewood",
+    "Specialty": "Psychiatry",
+    "Payments": 33426.64
+}, {
+    "City": "lakewood",
+    "Specialty": "Obstetrics/Gynecology",
+    "Payments": 34087.08
+}, {
+    "City": "lakewood",
+    "Specialty": "Hematology/Oncology",
+    "Payments": 867696.9
+}, {
+    "City": "lakewood",
+    "Specialty": "Internal Medicine",
+    "Payments": 1358161.0399999998
+}, {
+    "City": "lakewood",
+    "Specialty": "Podiatry",
+    "Payments": 199566.11
+}, {
+    "City": "lakewood",
+    "Specialty": "Gastroenterology",
+    "Payments": 374495.42
+}, {
+    "City": "lakewood",
+    "Specialty": "Emergency Medicine",
+    "Payments": 1253147.8299999996
+}, {
+    "City": "lakewood",
+    "Specialty": "Endocrinology",
+    "Payments": 68082.64
+}, {
+    "City": "lakewood",
+    "Specialty": "Rheumatology",
+    "Payments": 983241.02
+}, {
+    "City": "lakewood",
+    "Specialty": "Physical Therapist",
+    "Payments": 107004.39000000001
+}, {
+    "City": "lakewood",
+    "Specialty": "Neurology",
+    "Payments": 257391.26
+}, {
+    "City": "lakewood",
+    "Specialty": "Geriatric Medicine",
+    "Payments": 59037.22
+}, {
+    "City": "lakewood",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 52836.259999999995
+}, {
+    "City": "lakewood",
+    "Specialty": "Dermatology",
+    "Payments": 1505487.29
+}, {
+    "City": "lakewood",
+    "Specialty": "Independent Diagnostic Testing Facility",
+    "Payments": 455684.69
+}, {
+    "City": "lakewood",
+    "Specialty": "Pathology",
+    "Payments": 121040.85
+}, {
+    "City": "lakewood",
+    "Specialty": "Physician Assistant",
+    "Payments": 94478.11
+}, {
+    "City": "lakewood",
+    "Specialty": "Allergy/Immunology",
+    "Payments": 102843.25
+}, {
+    "City": "longmont",
+    "Specialty": "Interventional Pain Management",
+    "Payments": 66381.41
+}, {
+    "City": "longmont",
+    "Specialty": "Urology",
+    "Payments": 289014.8
+}, {
+    "City": "longmont",
+    "Specialty": "Anesthesiology",
+    "Payments": 159393.7
+}, {
+    "City": "longmont",
+    "Specialty": "Radiation Oncology",
+    "Payments": 71744.42
+}, {
+    "City": "longmont",
+    "Specialty": "Pulmonary Disease",
+    "Payments": 698506.46
+}, {
+    "City": "longmont",
+    "Specialty": "Ambulatory Surgical Center",
+    "Payments": 1268196.34
+}, {
+    "City": "longmont",
+    "Specialty": "Ambulance Service Supplier",
+    "Payments": 127924.3
+}, {
+    "City": "longmont",
+    "Specialty": "Orthopedic Surgery",
+    "Payments": 759397.05
+}, {
+    "City": "longmont",
+    "Specialty": "Optometry",
+    "Payments": 122375.8
+}, {
+    "City": "longmont",
+    "Specialty": "Licensed Clinical Social Worker",
+    "Payments": 80739.76999999999
+}, {
+    "City": "longmont",
+    "Specialty": "Physical Medicine and Rehabilitation",
+    "Payments": 66783.34
+}, {
+    "City": "longmont",
+    "Specialty": "Gastroenterology",
+    "Payments": 836411.24
+}, {
+    "City": "longmont",
+    "Specialty": "Cardiology",
+    "Payments": 1004337.87
+}, {
+    "City": "longmont",
+    "Specialty": "Obstetrics/Gynecology",
+    "Payments": 42204.159999999996
+}, {
+    "City": "longmont",
+    "Specialty": "Family Practice",
+    "Payments": 2312853.7900000005
+}, {
+    "City": "longmont",
+    "Specialty": "Hand Surgery",
+    "Payments": 73466.93
+}, {
+    "City": "longmont",
+    "Specialty": "Diagnostic Radiology",
+    "Payments": 390211.24
+}, {
+    "City": "longmont",
+    "Specialty": "Ophthalmology",
+    "Payments": 5630822.23
+}, {
+    "City": "longmont",
+    "Specialty": "Neurology",
+    "Payments": 438603.13
+}, {
+    "City": "longmont",
+    "Specialty": "Vascular Surgery",
+    "Payments": 62653.52
+}, {
+    "City": "longmont",
+    "Specialty": "Chiropractic",
+    "Payments": 183852.73999999996
+}, {
+    "City": "longmont",
+    "Specialty": "Nephrology",
+    "Payments": 101878.36
+}, {
+    "City": "longmont",
+    "Specialty": "Otolaryngology",
+    "Payments": 283995.21
+}, {
+    "City": "longmont",
+    "Specialty": "Psychiatry",
+    "Payments": 83403.06999999999
+}, {
+    "City": "longmont",
+    "Specialty": "Mass Immunization Roster Biller",
+    "Payments": 65552.12
+}, {
+    "City": "longmont",
+    "Specialty": "Pathology",
+    "Payments": 121084.64
+}, {
+    "City": "longmont",
+    "Specialty": "Hematology/Oncology",
+    "Payments": 1316336.83
+}, {
+    "City": "longmont",
+    "Specialty": "Internal Medicine",
+    "Payments": 925344.98
+}, {
+    "City": "longmont",
+    "Specialty": "Podiatry",
+    "Payments": 121244.78
+}, {
+    "City": "longmont",
+    "Specialty": "Physician Assistant",
+    "Payments": 177002.75999999998
+}, {
+    "City": "longmont",
+    "Specialty": "Clinical Psychologist",
+    "Payments": 56661.340000000004
+}, {
+    "City": "longmont",
+    "Specialty": "Emergency Medicine",
+    "Payments": 127695.05
+}, {
+    "City": "longmont",
+    "Specialty": "Endocrinology",
+    "Payments": 213508.55
+}, {
+    "City": "longmont",
+    "Specialty": "Rheumatology",
+    "Payments": 836572.93
+}, {
+    "City": "longmont",
+    "Specialty": "Physical Therapist",
+    "Payments": 374481.35
+}, {
+    "City": "longmont",
+    "Specialty": "Preventive Medicine",
+    "Payments": 75342.93
+}, {
+    "City": "longmont",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 52903.78
+}, {
+    "City": "longmont",
+    "Specialty": "Dermatology",
+    "Payments": 413223.12
+}, {
+    "City": "longmont",
+    "Specialty": "Independent Diagnostic Testing Facility",
+    "Payments": 236765.02
+}, {
+    "City": "longmont",
+    "Specialty": "General Surgery",
+    "Payments": 81721.31
+}, {
+    "City": "longmont",
+    "Specialty": "Infectious Disease",
+    "Payments": 105656.87
+}, {
+    "City": "louisville",
+    "Specialty": "CRNA",
+    "Payments": 14127.550000000001
+}, {
+    "City": "louisville",
+    "Specialty": "Ambulatory Surgical Center",
+    "Payments": 124078.26
+}, {
+    "City": "louisville",
+    "Specialty": "Ambulance Service Supplier",
+    "Payments": 71961.25
+}, {
+    "City": "louisville",
+    "Specialty": "Orthopedic Surgery",
+    "Payments": 551984.63
+}, {
+    "City": "louisville",
+    "Specialty": "Optometry",
+    "Payments": 120861.47000000002
+}, {
+    "City": "louisville",
+    "Specialty": "Clinical Psychologist",
+    "Payments": 3518.78
+}, {
+    "City": "louisville",
+    "Specialty": "Physical Therapist",
+    "Payments": 214096.37999999995
+}, {
+    "City": "louisville",
+    "Specialty": "Obstetrics/Gynecology",
+    "Payments": 1425.16
+}, {
+    "City": "louisville",
+    "Specialty": "Family Practice",
+    "Payments": 335405.21
+}, {
+    "City": "louisville",
+    "Specialty": "Ophthalmology",
+    "Payments": 2100992.0
+}, {
+    "City": "louisville",
+    "Specialty": "Chiropractic",
+    "Payments": 14682.8
+}, {
+    "City": "louisville",
+    "Specialty": "Plastic and Reconstructive Surgery",
+    "Payments": 44713.84
+}, {
+    "City": "louisville",
+    "Specialty": "Psychiatry",
+    "Payments": 37051.079999999994
+}, {
+    "City": "louisville",
+    "Specialty": "Mass Immunization Roster Biller",
+    "Payments": 11609.33
+}, {
+    "City": "louisville",
+    "Specialty": "Internal Medicine",
+    "Payments": 103712.13
+}, {
+    "City": "louisville",
+    "Specialty": "Podiatry",
+    "Payments": 65756.58
+}, {
+    "City": "louisville",
+    "Specialty": "Emergency Medicine",
+    "Payments": 26436.53
+}, {
+    "City": "louisville",
+    "Specialty": "Endocrinology",
+    "Payments": 120907.12
+}, {
+    "City": "louisville",
+    "Specialty": "Neurology",
+    "Payments": 51718.12
+}, {
+    "City": "louisville",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 73663.67
+}, {
+    "City": "louisville",
+    "Specialty": "Dermatology",
+    "Payments": 71205.33
+}, {
+    "City": "louisville",
+    "Specialty": "General Surgery",
+    "Payments": 42902.44
+}, {
+    "City": "louisville",
+    "Specialty": "Physician Assistant",
+    "Payments": 60274.799999999996
+}, {
+    "City": "louisville",
+    "Specialty": "Allergy/Immunology",
+    "Payments": 16105.51
+}, {
+    "City": "loveland",
+    "Specialty": "Cardiac Surgery",
+    "Payments": 323510.30999999994
+}, {
+    "City": "loveland",
+    "Specialty": "Anesthesiology",
+    "Payments": 7787.54
+}, {
+    "City": "loveland",
+    "Specialty": "Radiation Oncology",
+    "Payments": 185875.2
+}, {
+    "City": "loveland",
+    "Specialty": "Psychiatry",
+    "Payments": 119918.53
+}, {
+    "City": "loveland",
+    "Specialty": "Ambulatory Surgical Center",
+    "Payments": 927235.02
+}, {
+    "City": "loveland",
+    "Specialty": "Ambulance Service Supplier",
+    "Payments": 1226851.77
+}, {
+    "City": "loveland",
+    "Specialty": "Clinical Laboratory",
+    "Payments": 5108854.91
+}, {
+    "City": "loveland",
+    "Specialty": "Orthopedic Surgery",
+    "Payments": 224938.68
+}, {
+    "City": "loveland",
+    "Specialty": "Optometry",
+    "Payments": 97652.73
+}, {
+    "City": "loveland",
+    "Specialty": "Licensed Clinical Social Worker",
+    "Payments": 8698.9
+}, {
+    "City": "loveland",
+    "Specialty": "Gastroenterology",
+    "Payments": 1234265.87
+}, {
+    "City": "loveland",
+    "Specialty": "Physical Therapist",
+    "Payments": 934734.2399999998
+}, {
+    "City": "loveland",
+    "Specialty": "Obstetrics/Gynecology",
+    "Payments": 76927.02
+}, {
+    "City": "loveland",
+    "Specialty": "Family Practice",
+    "Payments": 1013717.2100000003
+}, {
+    "City": "loveland",
+    "Specialty": "Hematology",
+    "Payments": 44892.73
+}, {
+    "City": "loveland",
+    "Specialty": "Ophthalmology",
+    "Payments": 811841.83
+}, {
+    "City": "loveland",
+    "Specialty": "Certified Nurse Midwife",
+    "Payments": 5624.13
+}, {
+    "City": "loveland",
+    "Specialty": "Medical Oncology",
+    "Payments": 67048.17
+}, {
+    "City": "loveland",
+    "Specialty": "Occupational therapist",
+    "Payments": 251372.05000000002
+}, {
+    "City": "loveland",
+    "Specialty": "Chiropractic",
+    "Payments": 224305.50000000003
+}, {
+    "City": "loveland",
+    "Specialty": "Critical Care (Intensivists)",
+    "Payments": 392983.31
+}, {
+    "City": "loveland",
+    "Specialty": "Internal Medicine",
+    "Payments": 1079612.18
+}, {
+    "City": "loveland",
+    "Specialty": "Speech Language Pathologist",
+    "Payments": 76629.66
+}, {
+    "City": "loveland",
+    "Specialty": "Otolaryngology",
+    "Payments": 72726.48
+}, {
+    "City": "loveland",
+    "Specialty": "CRNA",
+    "Payments": 43365.28
+}, {
+    "City": "loveland",
+    "Specialty": "General Practice",
+    "Payments": 82189.47
+}, {
+    "City": "loveland",
+    "Specialty": "Mass Immunization Roster Biller",
+    "Payments": 107434.26999999999
+}, {
+    "City": "loveland",
+    "Specialty": "Pathology",
+    "Payments": 487684.4
+}, {
+    "City": "loveland",
+    "Specialty": "Geriatric Medicine",
+    "Payments": 111759.39
+}, {
+    "City": "loveland",
+    "Specialty": "Podiatry",
+    "Payments": 46923.12
+}, {
+    "City": "loveland",
+    "Specialty": "Clinical Psychologist",
+    "Payments": 74123.45
+}, {
+    "City": "loveland",
+    "Specialty": "Emergency Medicine",
+    "Payments": 146104.33000000002
+}, {
+    "City": "loveland",
+    "Specialty": "Endocrinology",
+    "Payments": 53801.42
+}, {
+    "City": "loveland",
+    "Specialty": "Cardiology",
+    "Payments": 136281.61000000002
+}, {
+    "City": "loveland",
+    "Specialty": "Neurosurgery",
+    "Payments": 41970.02
+}, {
+    "City": "loveland",
+    "Specialty": "Neurology",
+    "Payments": 327181.58
+}, {
+    "City": "loveland",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 51230.83
+}, {
+    "City": "loveland",
+    "Specialty": "Dermatology",
+    "Payments": 1647013.38
+}, {
+    "City": "loveland",
+    "Specialty": "Independent Diagnostic Testing Facility",
+    "Payments": 70685.39
+}, {
+    "City": "loveland",
+    "Specialty": "General Surgery",
+    "Payments": 98390.73000000001
+}, {
+    "City": "loveland",
+    "Specialty": "Physician Assistant",
+    "Payments": 86528.51000000001
+}, {
+    "City": "loveland",
+    "Specialty": "Allergy/Immunology",
+    "Payments": 39254.13
+}, {
+    "City": "westminster",
+    "Specialty": "Urology",
+    "Payments": 42347.22
+}, {
+    "City": "westminster",
+    "Specialty": "CRNA",
+    "Payments": 32905.33
+}, {
+    "City": "westminster",
+    "Specialty": "Ambulatory Surgical Center",
+    "Payments": 371279.88
+}, {
+    "City": "westminster",
+    "Specialty": "Ambulance Service Supplier",
+    "Payments": 341405.24
+}, {
+    "City": "westminster",
+    "Specialty": "Clinical Laboratory",
+    "Payments": 1389.37
+}, {
+    "City": "westminster",
+    "Specialty": "Orthopedic Surgery",
+    "Payments": 13441.81
+}, {
+    "City": "westminster",
+    "Specialty": "Optometry",
+    "Payments": 20624.18
+}, {
+    "City": "westminster",
+    "Specialty": "Clinical Psychologist",
+    "Payments": 127110.15000000001
+}, {
+    "City": "westminster",
+    "Specialty": "Physical Therapist",
+    "Payments": 276173.11
+}, {
+    "City": "westminster",
+    "Specialty": "Obstetrics/Gynecology",
+    "Payments": 1436.59
+}, {
+    "City": "westminster",
+    "Specialty": "Family Practice",
+    "Payments": 1184462.9800000004
+}, {
+    "City": "westminster",
+    "Specialty": "Ophthalmology",
+    "Payments": 439411.55000000005
+}, {
+    "City": "westminster",
+    "Specialty": "Chiropractic",
+    "Payments": 38857.93
+}, {
+    "City": "westminster",
+    "Specialty": "Multispecialty Clinic/Group Practice",
+    "Payments": 7076.31
+}, {
+    "City": "westminster",
+    "Specialty": "Nephrology",
+    "Payments": 549544.54
+}, {
+    "City": "westminster",
+    "Specialty": "Psychiatry",
+    "Payments": 20789.71
+}, {
+    "City": "westminster",
+    "Specialty": "Mass Immunization Roster Biller",
+    "Payments": 36314.91999999999
+}, {
+    "City": "westminster",
+    "Specialty": "Internal Medicine",
+    "Payments": 1051032.6199999999
+}, {
+    "City": "westminster",
+    "Specialty": "Podiatry",
+    "Payments": 49750.119999999995
+}, {
+    "City": "westminster",
+    "Specialty": "Emergency Medicine",
+    "Payments": 87274.0
+}, {
+    "City": "westminster",
+    "Specialty": "Endocrinology",
+    "Payments": 39292.57
+}, {
+    "City": "westminster",
+    "Specialty": "Cardiology",
+    "Payments": 473710.54
+}, {
+    "City": "westminster",
+    "Specialty": "Nurse Practitioner",
+    "Payments": 23496.4
+}, {
+    "City": "westminster",
+    "Specialty": "Dermatology",
+    "Payments": 279387.8
+}, {
+    "City": "westminster",
+    "Specialty": "General Surgery",
+    "Payments": 36794.81
+}, {
+    "City": "westminster",
+    "Specialty": "Physician Assistant",
+    "Payments": 150148.18
+}]
