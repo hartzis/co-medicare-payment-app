@@ -37,21 +37,27 @@ d3.json("../json/cities.json", function(error, citiesJson) {
             //console.log(this);
             d3.select(this).select('.city-label')
                 .transition().duration(500)
-                .attr('opacity', 1)
+                .attr('opacity', 1);
+            d3.select(this).select('.city-pop')
+                .transition().duration(500)
+                .attr('opacity', 1);
         })
         .on("mouseout", function(d) {
             //console.log(this);
             d3.select(this).select('.city-label')
                 .transition().duration(500)
-                .attr('opacity', 0)
+                .attr('opacity', 0);
+            d3.select(this).select('.city-pop')
+                .transition().duration(500)
+                .attr('opacity', 0);
         });
 
-    // Add a circle.
+    // Add a circle marker
     marker.append("svg:circle")
         .attr("r", 9.5)
         .classed("city-marker", true);
 
-    // Add a label.
+    // Add a label for city
     marker.append("svg:text")
         .attr("y", -12)
         .style("text-anchor", "middle")
@@ -59,6 +65,16 @@ d3.json("../json/cities.json", function(error, citiesJson) {
             return d.properties.city;
         })
         .classed("city-label", true)
+        .attr('opacity', 0);
+
+    // Add a label for city
+    marker.append("svg:text")
+        .attr("y", 27)
+        .style("text-anchor", "middle")
+        .text(function(d) {
+            return "Pop: " + d.properties.population;
+        })
+        .classed("city-pop", true)
         .attr('opacity', 0);
 
 
