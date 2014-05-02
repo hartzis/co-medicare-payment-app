@@ -1,4 +1,4 @@
-d3.json("../json/allCitiesPayments.json", function(error, citiesJson) {
+d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
 
     var nestedData = d3.nest()
         .key(function(d) {
