@@ -1,0 +1,57 @@
+// setting background image
+html {
+  background: url(img/colorado-sky-1440w.jpg) no-repeat center center fixed;
+  background-size: cover;
+}
+
+.columns {
+	padding: 0;
+}
+
+.map {
+	height: 600px;
+	width: 600px;
+}
+
+.city-label {
+  stroke: #000;
+  stroke-width:1;
+  fill: #000;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.city-pop {
+  stroke: #000;
+  stroke-width:1;
+  fill: #000;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.city-marker {
+  fill: #000;
+  stroke-width:3;
+  stroke: #aaa;
+  opacity: 0.45;
+  cursor: pointer;
+  z-index: 15;
+}
+
+// Main page styles
+.circular-img {
+  border-radius: 150px;
+  border: 2px solid yellow;
+}
+
+.social-link {
+  padding: 0 .5rem;
+  &:hover {
+  text-decoration: underline; 
+  }
+}
+
+.creator-name {
+  padding: .6rem;
+  margin: 0;
+}
