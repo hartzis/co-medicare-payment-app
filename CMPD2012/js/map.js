@@ -17,7 +17,7 @@ map.add(po.image()
     .url(po.url("http://{S}.tile.stamen.com/watercolor/{Z}/{X}/{Y}.jpg")
         .hosts(["a", "b", "c", "d"])));
 
-d3.json("../json/cities.json", function(error, citiesJson) {
+d3.json("./json/cities.json", function(error, citiesJson) {
 
 
     var cities = topojson.feature(citiesJson, citiesJson.objects.collection);
