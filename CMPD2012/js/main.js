@@ -1,3 +1,12 @@
+// adding back ground image using backstretch.js
+$("#colorado-sky").backstretch("./img/colorado-sky-1440w.jpg");
+// on window resize, resize the background wrapper to the size of the window height
+$(window).on('resize',function(){
+	$('.background-wrapper').height(window.innerHeight+'px');
+});
+$('.background-wrapper').height(window.innerHeight+'px');
+
+
 d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
 
     var nestedData = d3.nest()

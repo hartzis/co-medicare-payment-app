@@ -1,8 +1,4 @@
 // setting background image
-html {
-  background: url(img/colorado-sky-1440w.jpg) no-repeat center center fixed;
-  background-size: cover;
-}
 
 .columns {
 	padding: 0;
@@ -42,6 +38,7 @@ html {
 .circular-img {
   border-radius: 150px;
   border: 2px solid yellow;
+  padding: .2rem;
 }
 
 .social-link {
@@ -52,6 +49,42 @@ html {
 }
 
 .creator-name {
-  padding: .6rem;
+  padding: .1rem;
   margin: 0;
+}
+
+// Foundation override styles
+a {
+	color: white;
+}
+
+.see-through {
+	opacity: .6;
+}
+
+body {
+	// margin-bottom: 5rem;
+}
+
+.custom-panel {
+	background-color: #f2f2f2;
+	position: absolute;
+	opacity: .4;
+	width: 100%;
+	bottom: 0;
+	height: 280px;
+}
+
+.creator-title {
+	color: black;
+}
+
+.site-title {
+	color: white;
+}
+.custom-panel-container {
+	position: relative;
+}
+.background-wrapper {
+	// margin-bottom: 10rem;
 }
