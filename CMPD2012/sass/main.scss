@@ -44,10 +44,15 @@
 .social-link {
   padding: 0 .5rem;
   &:hover {
+  color: white;
   text-decoration: underline; 
   }
 }
 
+.creator-title,
+.creator-name {
+	color: white;
+}
 .creator-name {
   padding: .1rem;
   margin: 0;
@@ -72,8 +77,8 @@
 
 .flag-c {
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: -25px;
+	left: 50px;
 	z-index: 10;
 }
 
@@ -95,9 +100,6 @@ body {
 	height: 280px;
 }
 
-.creator-title {
-	color: black;
-}
 
 .site-title {
 	color: black;

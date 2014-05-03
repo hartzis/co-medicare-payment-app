@@ -43,7 +43,13 @@
 }
 
 .social-link:hover {
+  color: white;
   text-decoration: underline;
+}
+
+.creator-title,
+.creator-name {
+  color: white;
 }
 
 .creator-name {
@@ -69,8 +75,8 @@
 
 .flag-c {
   position: absolute;
-  top: 0;
-  left: 0;
+  top: -25px;
+  left: 50px;
   z-index: 10;
 }
 
@@ -85,10 +91,6 @@ a {
   width: 100%;
   bottom: 0;
   height: 280px;
-}
-
-.creator-title {
-  color: black;
 }
 
 .site-title {
