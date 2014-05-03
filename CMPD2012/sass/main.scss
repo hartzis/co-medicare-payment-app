@@ -82,6 +82,10 @@
 	z-index: 10;
 }
 
+.hide {
+	display: none;
+}
+
 // Foundation override styles
 a {
 	color: white;
@@ -99,7 +103,6 @@ body {
 	bottom: 0;
 	height: 280px;
 }
-
 
 .site-title {
 	color: black;

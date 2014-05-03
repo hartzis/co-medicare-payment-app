@@ -80,6 +80,10 @@
   z-index: 10;
 }
 
+.hide {
+  display: none;
+}
+
 a {
   color: white;
 }

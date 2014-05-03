@@ -1,3 +1,10 @@
+// on document ready
+// 
+
+$(document).on('ready',function(){
+	$('.flag-c').fadeIn(2000);
+});
+
 // adding back ground image using backstretch.js
 $("#colorado-sky").backstretch("./img/colorado-sky-1440w.jpg");
 // on window resize, resize the background wrapper to the size of the window height
