@@ -51,12 +51,31 @@
   margin: 0;
 }
 
-a {
-  color: white;
+.header {
+  display: block;
 }
 
-.see-through {
-  opacity: .6;
+.header-flag-blue {
+  background-color: blue;
+  height: 3rem;
+  width: 100%;
+}
+
+.header-flag-white {
+  background-color: white;
+  height: 3rem;
+  width: 100%;
+}
+
+.flag-c {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+a {
+  color: white;
 }
 
 .custom-panel {
@@ -73,7 +92,8 @@ a {
 }
 
 .site-title {
-  color: white;
+  color: black;
+  font-size: 1.8rem;
 }
 
 .custom-panel-container {

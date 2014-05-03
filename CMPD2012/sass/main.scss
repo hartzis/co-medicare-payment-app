@@ -53,13 +53,33 @@
   margin: 0;
 }
 
+// Header styles
+.header {
+	display: block;
+}
+
+.header-flag-blue {
+	background-color: blue;
+	height: 3rem;
+	width: 100%;
+}
+
+.header-flag-white {
+	background-color: white;
+	height: 3rem;
+	width: 100%;
+}
+
+.flag-c {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+
 // Foundation override styles
 a {
 	color: white;
-}
-
-.see-through {
-	opacity: .6;
 }
 
 body {
@@ -80,7 +100,8 @@ body {
 }
 
 .site-title {
-	color: white;
+	color: black;
+	font-size: 1.8rem;
 }
 .custom-panel-container {
 	position: relative;
