@@ -2,9 +2,16 @@
   padding: 0;
 }
 
+.donut {
+  height: 520px;
+  width: 480px;
+}
+
 .map {
-  height: 600px;
-  width: 600px;
+  border: 3px solid #00F;
+  border-top: none;
+  height: 520px;
+  width: 480px;
 }
 
 .city-label {
@@ -24,9 +31,9 @@
 }
 
 .city-marker {
-  fill: #000;
-  stroke-width: 3;
-  stroke: #aaa;
+  fill: #333;
+  stroke-width: 2;
+  stroke: #000;
   opacity: 0.45;
   cursor: pointer;
   z-index: 15;
@@ -41,7 +48,6 @@
 .social-link {
   padding: 0 .5rem;
 }
-
 .social-link:hover {
   color: white;
   text-decoration: underline;

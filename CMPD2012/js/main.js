@@ -1,17 +1,17 @@
 // on document ready
 // 
 
-$(document).on('ready',function(){
-	$('.flag-c').fadeIn(2000);
+$(document).on('ready', function() {
+    $('.flag-c').fadeIn(2000);
 });
 
 // adding back ground image using backstretch.js
 $("#colorado-sky").backstretch("./img/colorado-sky-1440w.jpg");
 // on window resize, resize the background wrapper to the size of the window height
-$(window).on('resize',function(){
-	$('.background-wrapper').height(window.innerHeight+'px');
+$(window).on('resize', function() {
+    $('.background-wrapper').height(window.innerHeight + 'px');
 });
-$('.background-wrapper').height(window.innerHeight+'px');
+$('.background-wrapper').height(window.innerHeight + 'px');
 
 
 d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
@@ -33,8 +33,8 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
     var createDonut = function(city, sum, cityArrayOfObjects) {
         var svg = d3.select('.donut');
 
-        var width = 480,
-            height = 480,
+        var width = 450,
+            height = 450,
             radius = Math.min(width, height) / 2
 
         var outerRadius = width / 2;
@@ -137,7 +137,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
         var map = po.map()
             .container(svg.node())
             .center({
-                lat: 40.0,
+                lat: 40.05,
                 lon: -104.95
             })
             .zoom(9)
@@ -186,7 +186,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
 
             // Add a circle marker
             marker.append("svg:circle")
-                .attr("r", 9.5)
+                .attr("r", 8)
                 .classed("city-marker", true);
 
             // Add a label for city
@@ -200,14 +200,14 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
                 .attr('opacity', 0);
 
             // Add a label for city
-            marker.append("svg:text")
-                .attr("y", 27)
-                .style("text-anchor", "middle")
-                .text(function(d) {
-                    return "Pop: " + d.properties.population;
-                })
-                .classed("city-pop", true)
-                .attr('opacity', 0);
+            // marker.append("svg:text")
+            //     .attr("y", 27)
+            //     .style("text-anchor", "middle")
+            //     .text(function(d) {
+            //         return "Pop: " + d.properties.population;
+            //     })
+            //     .classed("city-pop", true)
+            //     .attr('opacity', 0);
 
 
             function transform(d) {
