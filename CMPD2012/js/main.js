@@ -1,3 +1,5 @@
+var cityText;
+
 // on document ready
 // 
 
@@ -137,7 +139,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
         var map = po.map()
             .container(svg.node())
             .center({
-                lat: 40.05,
+                lat: 40.065,
                 lon: -104.95
             })
             .zoom(9)
@@ -163,52 +165,48 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
                 .attr("transform", transform)
                 .on('click', function(d) {
                     console.log(d.properties.city);
-                    selectCityThenDraw(d.properties.city);
+                    selectCityThenDraw(d.properties.city, d.properties.population);
                 })
-                .on("mouseover", function(d) {
-                    //console.log(this);
-                    d3.select(this).select('.city-label')
-                        .transition().duration(500)
-                        .attr('opacity', 1);
-                    d3.select(this).select('.city-pop')
-                        .transition().duration(500)
-                        .attr('opacity', 1);
+                .on("mouseover", function(d, i) {
+
+                    // create label
+                    var labelBox = d3.select(this).append('svg:rect')
+                        .classed('label-box', true)
+                    var thisText = d3.select(this).append('svg:text')
+                        .attr("y", -15)
+                        .style("text-anchor", "middle")
+                        .text(function(d) {
+                            return d.properties.city;
+                        })
+                        .classed("city-label", true);
+
+                    // create background box
+                    var textBBox = thisText[0][0].getBBox();
+                    labelBox.attr('width', function(d, i) {
+                        return textBBox.width + 4
+                    })
+                        .attr('height', function(d, i) {
+                            return textBBox.height + 2
+                        })
+                        .attr('x', function(d, i) {
+                            return textBBox.x - 2
+                        })
+                        .attr('y', function(d, i) {
+                            return textBBox.y - 1
+                        });
+                    // .transition().duration(500)
+                    // .attr('opacity', 1);
                 })
                 .on("mouseout", function(d) {
                     //console.log(this);
-                    d3.select(this).select('.city-label')
-                        .transition().duration(500)
-                        .attr('opacity', 0);
-                    d3.select(this).select('.city-pop')
-                        .transition().duration(500)
-                        .attr('opacity', 0);
+                    d3.select(this).select('.city-label').remove();
+                    d3.select(this).select('.label-box').remove();
                 });
 
             // Add a circle marker
             marker.append("svg:circle")
                 .attr("r", 8)
                 .classed("city-marker", true);
-
-            // Add a label for city
-            marker.append("svg:text")
-                .attr("y", -12)
-                .style("text-anchor", "middle")
-                .text(function(d) {
-                    return d.properties.city;
-                })
-                .classed("city-label", true)
-                .attr('opacity', 0);
-
-            // Add a label for city
-            // marker.append("svg:text")
-            //     .attr("y", 27)
-            //     .style("text-anchor", "middle")
-            //     .text(function(d) {
-            //         return "Pop: " + d.properties.population;
-            //     })
-            //     .classed("city-pop", true)
-            //     .attr('opacity', 0);
-
 
             function transform(d) {
                 d = map.locationPoint({
@@ -220,13 +218,13 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
         });
     })();
 
-    var selectCityThenDraw = function(selectedCity) {
+    var selectCityThenDraw = function(selectedCity, population) {
         var cityName = selectedCity.split(' ').join('').toLowerCase();
         var theCity = nestedData.filter(function(city) {
             return city.key === cityName;
         })[0];
         var totalPayments = theCity.sum.toFixed(0);
-        console.log(selectedCity, "sum:", totalPayments);
+        console.log(selectedCity, "sum:", totalPayments, "pop:", population);
         // call the make conut function
         createDonut(selectedCity, totalPayments, theCity.values);
     }

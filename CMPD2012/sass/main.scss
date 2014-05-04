@@ -5,40 +5,39 @@
 }
 
 .donut{
-	height: 520px;
+	height: 525px;
 	width: 480px;
 }
 
 .map {
 	border: 3px solid #00F;
 	border-top: none;
-	height: 520px;
+	height: 525px;
 	width: 480px;
 }
 
 .city-label {
-  stroke: #000;
-  stroke-width:1;
+	font-size: 1.25rem;
+  // stroke: #FFF;
+  // stroke-width:1;
   fill: #000;
   pointer-events: none;
-  z-index: 10;
 }
 
-.city-pop {
-  stroke: #000;
-  stroke-width:1;
-  fill: #000;
-  pointer-events: none;
-  z-index: 10;
+.label-box {
+	fill: #FFF;
+	stroke: #00F;
+	stroke-width: 2;
+	// opacity: 0.75;
+	pointer-events: none;
 }
 
 .city-marker {
-  fill: #333;
+  fill: #FFF;
   stroke-width:2;
-  stroke: #000;
+  stroke: #00F;
   opacity: 0.45;
   cursor: pointer;
-  z-index: 15;
 }
 
 // Main page styles
