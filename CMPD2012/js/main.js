@@ -9,11 +9,18 @@ $(document).on('ready', function() {
 
 // adding back ground image using backstretch.js
 $("#colorado-sky").backstretch("./img/colorado-sky-1440w.jpg");
+
 // on window resize, resize the background wrapper to the size of the window height
+// $(window).on('resize', function() {
+//     $('.background-wrapper').height(window.innerHeight + 'px');
+// });
+// $('.background-wrapper').height(window.innerHeight + 'px');
+
+// background wrapper size based on document height
 $(window).on('resize', function() {
-    $('.background-wrapper').height(window.innerHeight + 'px');
+    $('.background-wrapper').height($(document).height() + 'px');
 });
-$('.background-wrapper').height(window.innerHeight + 'px');
+$('.background-wrapper').height($(document).height() + 'px');
 
 
 d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
@@ -60,8 +67,6 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
                 return +d.Payments
             });
 
-
-
         var g = svg.selectAll("g.arc")
             .data(pie(cityArrayOfObjects))
             .enter()
@@ -69,6 +74,12 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
             .attr("class", "arc")
             .attr("transform", "translate(" + svgWidth / 2 + "," + ((svgHeight / 2) + 20) + ")")
             .on('mouseover', function(d) {
+                console.log("this g color:", d3.select(this).select('path').style('fill'));
+                var origFill = d3.rgb(d3.select(this).select('path').style('fill'))
+                d3.select(this).select('path').attr('data-fill', origFill.toString());
+                var brighten = origFill.brighter(0.5);
+                console.log(brighten);
+                d3.select(this).select('path').style('fill', brighten.toString());
                 d3.select(this).select('.specialty')
                     .transition().duration(100)
                     .attr("opacity", 1);
@@ -77,6 +88,8 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
                     .attr("opacity", 1);
             })
             .on('mouseout', function(d) {
+                var origFill = d3.rgb(d3.select(this).select('path').attr('data-fill'));
+                d3.select(this).select('path').style('fill', origFill.toString());
                 d3.select(this).select('.specialty')
                     .transition().duration(100)
                     .attr("opacity", 0);
@@ -92,7 +105,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
             .attr("class", "title")
             .attr({
                 x: (svgWidth / 2),
-                y: 30
+                y: 35
             })
             .style("text-anchor", "middle")
             .text(city);

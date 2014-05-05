@@ -28,6 +28,10 @@
   stroke: #555;
   stroke-width: 1;
 }
+.arc:hover {
+  stroke: #222;
+  stroke-width: 2;
+}
 
 .map {
   border: 3px solid #00F;
@@ -59,7 +63,7 @@
 
 .circular-img {
   border-radius: 150px;
-  border: 2px solid yellow;
+  border: 2px solid #f6a700;
   padding: .2rem;
 }
 
@@ -116,6 +120,10 @@
 
 a {
   color: white;
+}
+
+.footer {
+  margin-bottom: 1.5rem;
 }
 
 .custom-panel {

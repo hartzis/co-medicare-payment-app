@@ -27,6 +27,10 @@
 .arc{
 	stroke: #555;
 	stroke-width: 1;
+	&:hover {
+		stroke: #222;
+		stroke-width: 2;
+	}
 }
 
 // map styles
@@ -58,7 +62,7 @@
 // Main page styles
 .circular-img {
   border-radius: 150px;
-  border: 2px solid yellow;
+  border: 2px solid rgb(246,167,0);
   padding: .2rem;
 }
 
@@ -121,6 +125,9 @@ body {
 	// margin-bottom: 5rem;
 }
 
+.footer{
+	margin-bottom: 1.5rem;
+}
 .custom-panel {
 	background-color: #f2f2f2;
 	position: absolute;
