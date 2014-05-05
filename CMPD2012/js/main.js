@@ -10,12 +10,6 @@ $(document).on('ready', function() {
 // adding back ground image using backstretch.js
 $("#colorado-sky").backstretch("./img/colorado-sky-1440w.jpg");
 
-// on window resize, resize the background wrapper to the size of the window height
-// $(window).on('resize', function() {
-//     $('.background-wrapper').height(window.innerHeight + 'px');
-// });
-// $('.background-wrapper').height(window.innerHeight + 'px');
-
 // background wrapper size based on document height
 $(window).on('resize', function() {
     $('.background-wrapper').height($(document).height() + 'px');
@@ -74,11 +68,9 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
             .attr("class", "arc")
             .attr("transform", "translate(" + svgWidth / 2 + "," + ((svgHeight / 2) + 20) + ")")
             .on('mouseover', function(d) {
-                console.log("this g color:", d3.select(this).select('path').style('fill'));
                 var origFill = d3.rgb(d3.select(this).select('path').style('fill'))
                 d3.select(this).select('path').attr('data-fill', origFill.toString());
                 var brighten = origFill.brighter(0.5);
-                console.log(brighten);
                 d3.select(this).select('path').style('fill', brighten.toString());
                 d3.select(this).select('.specialty')
                     .transition().duration(100)
@@ -111,7 +103,9 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
             .text(city);
 
         g.append("path")
-            .style("fill", function(d){return colorScale(d.data.Payments);})
+            .style("fill", function(d) {
+                return colorScale(d.data.Payments);
+            })
             .attr("d", arc)
             .transition()
             .ease("linear")
@@ -145,11 +139,16 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
                 return "$ " + payment;
             });
 
-            function tweenDonut(b) {
-                var i = d3.interpolate({startAngle:0, endAngle:0}, b);
-                return function(t) {return arc(i(t))}
-    
+        function tweenDonut(b) {
+            var i = d3.interpolate({
+                startAngle: 0,
+                endAngle: 0
+            }, b);
+            return function(t) {
+                return arc(i(t))
             }
+
+        }
 
 
     }
