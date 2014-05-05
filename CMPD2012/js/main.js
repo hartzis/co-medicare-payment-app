@@ -111,13 +111,12 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
             .text(city);
 
         g.append("path")
-            .transition()
-            .duration(500)
-            .ease("linear")
-            .attr("fill", function(d) {
-                return colorScale(d.data.Payments);
-            })
+            .style("fill", function(d){return colorScale(d.data.Payments);})
             .attr("d", arc)
+            .transition()
+            .ease("linear")
+            .duration(800)
+            .attrTween("d", tweenDonut);
 
         g.append("text")
             .attr("class", "specialty")
@@ -146,7 +145,16 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
                 return "$ " + payment;
             });
 
+            function tweenDonut(b) {
+                var i = d3.interpolate({startAngle:0, endAngle:0}, b);
+                return function(t) {return arc(i(t))}
+    
+            }
+
+
     }
+
+
 
     // load map and marker data
     var loadMapAndMarkers = (function() {
