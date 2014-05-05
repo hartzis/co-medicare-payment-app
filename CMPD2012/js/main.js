@@ -98,11 +98,11 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
                     .attr("opacity", 0);
             });
 
-        svg.selectAll(".title")
+        svg.selectAll(".pie-chart-title")
             .data([city])
             .enter()
             .append("text")
-            .attr("class", "title")
+            .attr("class", "pie-chart-title")
             .attr({
                 x: (svgWidth / 2),
                 y: 35

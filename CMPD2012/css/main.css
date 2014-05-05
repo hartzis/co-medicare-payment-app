@@ -19,7 +19,7 @@
   stroke: none;
 }
 
-.title {
+.pie-chart-title {
   fill: #FFF;
   font-size: 2rem;
 }
@@ -104,6 +104,7 @@
   background-color: white;
   height: 2.25rem;
   width: 100%;
+  opacity: 0.8;
 }
 
 .flag-c {
@@ -145,4 +146,8 @@ a {
 
 .custom-panel-container {
   position: relative;
+}
+
+#colorado-sky {
+  opacity: .8;
 }

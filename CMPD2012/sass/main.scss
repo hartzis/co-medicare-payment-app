@@ -20,11 +20,11 @@ $droid: 'Droid Sans', sans-serif;
 	pointer-events: none;
 	stroke: none;
 }
-.title {
+.pie-chart-title {
 	fill: #FFF;
 	font-size: 2rem;
 }
-.arc{
+.arc {
 	stroke: #555;
 	stroke-width: 1;
 	&:hover {
@@ -102,6 +102,7 @@ $droid: 'Droid Sans', sans-serif;
 	background-color: white;
 	height: 2.25rem;
 	width: 100%;
+	opacity: .8
 }
 
 .flag-c {
@@ -126,7 +127,7 @@ body {
 	// margin-bottom: 5rem;
 }
 
-.footer{
+.footer {
 	margin-bottom: 1.5rem;
 }
 .custom-panel {
@@ -146,6 +147,10 @@ body {
 }
 .custom-panel-container {
 	position: relative;
+}
+
+#colorado-sky {
+	opacity: .8;
 }
 .background-wrapper {
 	// margin-bottom: 10rem;
