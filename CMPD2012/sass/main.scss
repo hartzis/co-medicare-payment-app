@@ -1,37 +1,52 @@
-// setting background image
+
 
 .columns {
 	padding: 0;
 }
 
+// donut chart styles
 .donut{
 	height: 525px;
 	width: 480px;
 }
+.specialty {
+	fill: #FFF;
+	pointer-events: none;
+	stroke: none;
 
+}
+.payments {
+	fill: #FFF;
+	pointer-events: none;
+	stroke: none;
+}
+.title {
+	fill: #FFF;
+	font-size: 2rem;
+}
+.arc{
+	stroke: #555;
+	stroke-width: 1;
+}
+
+// map styles
 .map {
 	border: 3px solid #00F;
 	border-top: none;
 	height: 525px;
 	width: 480px;
 }
-
 .city-label {
 	font-size: 1.25rem;
-  // stroke: #FFF;
-  // stroke-width:1;
   fill: #000;
   pointer-events: none;
 }
-
 .label-box {
 	fill: #FFF;
 	stroke: #00F;
 	stroke-width: 2;
-	// opacity: 0.75;
 	pointer-events: none;
 }
-
 .city-marker {
   fill: #FFF;
   stroke-width:2;
@@ -65,26 +80,31 @@
 }
 
 // Header styles
+.header-row {
+	width: 100%;
+}
 .header {
 	display: block;
 }
 
 .header-flag-blue {
 	background-color: blue;
-	height: 3rem;
+	height: 2rem;
 	width: 100%;
 }
 
 .header-flag-white {
 	background-color: white;
-	height: 3rem;
+	height: 2.25rem;
 	width: 100%;
 }
 
 .flag-c {
+	height: 150px;
+	width: 150px;
 	position: absolute;
 	top: -25px;
-	left: 50px;
+	left: 30px;
 	z-index: 10;
 }
 
@@ -113,6 +133,7 @@ body {
 .site-title {
 	color: black;
 	font-size: 1.8rem;
+	margin: 0;
 }
 .custom-panel-container {
 	position: relative;

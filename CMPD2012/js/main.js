@@ -35,28 +35,31 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
     var createDonut = function(city, sum, cityArrayOfObjects) {
         var svg = d3.select('.donut');
 
-        var width = 450,
-            height = 450,
-            radius = Math.min(width, height) / 2
+        // get initial heights and widths
+        var svgWidth = svg.style("width");
+        svgWidth = +svgWidth.replace('px', '');
 
-        var outerRadius = width / 2;
+        var svgHeight = svg.style("height");
+        svgHeight = +svgHeight.replace('px', '');
 
-        var colorScale = d3.scale.category20(); //built in range of 20 colors
+        var radius = Math.min(svgWidth, svgHeight) / 2;
+        var outerRadius = svgWidth / 2;
 
-        var arc = d3.svg.arc() //creates <path> elements using arc data
+        //built in range of 20 colors
+        var colorScale = d3.scale.category20();
 
-        .outerRadius(width / 2)
+        //creates <path> elements using arc data
+        var arc = d3.svg.arc()
+            .outerRadius(svgWidth / 2)
             .innerRadius(150);
 
+        //this will create arc data for us given a list of values
         var pie = d3.layout.pie()
             .sort(null)
             .value(function(d) {
                 return +d.Payments
             });
 
-        var svgHeight = d3.select('.donut').style("height");
-        svgHeight = +svgHeight.replace('px', '');
-        console.log(typeof svgHeight);
 
 
         var g = svg.selectAll("g.arc")
@@ -64,8 +67,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
             .enter()
             .append("g")
             .attr("class", "arc")
-        // .attr("transform", "translate(" + width/2 + "," + height/2 + ")")
-        .attr("transform", "translate(" + width / 2 + "," + svgHeight / 2 + ")")
+            .attr("transform", "translate(" + svgWidth / 2 + "," + ((svgHeight / 2) + 20) + ")")
             .on('mouseover', function(d) {
                 d3.select(this).select('.specialty')
                     .transition().duration(100)
@@ -81,15 +83,16 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
                 d3.select(this).select('.payments')
                     .transition().duration(100)
                     .attr("opacity", 0);
-            })
+            });
+
         svg.selectAll(".title")
             .data([city])
             .enter()
             .append("text")
-            .attr("class", ".title")
+            .attr("class", "title")
             .attr({
-                x: (width / 2),
-                y: 10
+                x: (svgWidth / 2),
+                y: 30
             })
             .style("text-anchor", "middle")
             .text(city);
@@ -125,11 +128,14 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
             })
             .attr("text-anchor", "middle")
             .text(function(d) {
-                return "$ " + d.data.Payments.toFixed(2);
+                var payment = d.data.Payments.toFixed(0);
+                payment = payment.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                return "$ " + payment;
             });
 
     }
 
+    // load map and marker data
     var loadMapAndMarkers = (function() {
         var svg = d3.select('.map');
 
@@ -164,7 +170,6 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
                 .enter().append("svg:g")
                 .attr("transform", transform)
                 .on('click', function(d) {
-                    console.log(d.properties.city);
                     selectCityThenDraw(d.properties.city, d.properties.population);
                 })
                 .on("mouseover", function(d, i) {
@@ -219,10 +224,14 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
     })();
 
     var selectCityThenDraw = function(selectedCity, population) {
-        var cityName = selectedCity.split(' ').join('').toLowerCase();
+        $('.donut').empty();
+        var cityName = selectedCity.split(' ');
+        cityName[0] = cityName[0].toLowerCase();
+        var citySelector = cityName.join('');
         var theCity = nestedData.filter(function(city) {
-            return city.key === cityName;
+            return city.key === citySelector;
         })[0];
+        console.log(theCity);
         var totalPayments = theCity.sum.toFixed(0);
         console.log(selectedCity, "sum:", totalPayments, "pop:", population);
         // call the make conut function
