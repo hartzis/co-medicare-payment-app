@@ -33,6 +33,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
     }
     console.log(nestedData);
 
+    // create pie donut
     var createDonut = function(city, sum, cityArrayOfObjects) {
         var svg = d3.select('.donut');
 
@@ -153,6 +154,8 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
 
     }
 
+    // create list of specialties
+
 
     // load map and marker data
     var loadMapAndMarkers = (function() {
@@ -242,6 +245,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
         });
     })();
 
+    // draw pie donut and create list of specialties
     var selectCityThenDraw = function(selectedCity, population) {
         $('#site-information').remove();
         $('.donut').empty();
@@ -254,7 +258,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
         console.log(theCity);
         var totalPayments = theCity.sum.toFixed(0);
         console.log(selectedCity, "sum:", totalPayments, "pop:", population);
-        // call the make conut function
+        // call the make donut function
         createDonut(selectedCity, totalPayments, theCity.values);
     }
 
