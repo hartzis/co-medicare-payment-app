@@ -1,5 +1,4 @@
 @import url(sprites.css);
-
 .columns {
   padding: 0;
 }
@@ -13,6 +12,12 @@
 
 #site-information {
   position: absolute;
+}
+
+.specialties-list-svg {
+  display: none;
+  height: 525px;
+  width: 480px;
 }
 
 .donut {
@@ -42,7 +47,6 @@
   stroke: #555;
   stroke-width: 1;
 }
-
 .arc:hover {
   stroke: #222;
   stroke-width: 2;
@@ -85,7 +89,6 @@
 .social-link {
   padding: 0 .5rem;
 }
-
 .social-link:hover {
   color: white;
   text-decoration: underline;

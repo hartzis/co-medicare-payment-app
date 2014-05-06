@@ -155,7 +155,62 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
     }
 
     // create list of specialties
+    var createListOfSpecialties = function(cityArrayOfObjects) {
 
+        cityArrayOfObjects.sort(function(a, b) {
+            return a.Payments - b.Payments
+        })
+
+        var svg = d3.select('.specialties-list-svg');
+
+        // get initial heights and widths
+        var svgWidth = svg.style("width");
+        svgWidth = +svgWidth.replace('px', '');
+
+        var svgHeight = svg.style("height");
+        svgHeight = +svgHeight.replace('px', '');
+
+        var yscale = d3.scale.ordinal()
+            .domain(d3.range(cityArrayOfObjects.length))
+            .rangeBands([svgHeight, 0], 1);
+
+        console.log("city spec length:", cityArrayOfObjects.length);
+
+        var listItems = svg.selectAll('g')
+            .data(cityArrayOfObjects)
+            .enter().append('svg:g')
+            .attr('transform', function(d, i) {
+                var y = yscale(i);
+                var x = (svgWidth / 2) + 60;
+                return "translate(" + [x, y] + ")";
+            });
+
+
+        var textList = listItems.append('text')
+            .attr('class', 'specialty-list')
+            .attr('data-specialty', function(d, i) {
+                return d.Specialty + ' ' + d.Payments.toFixed(0)
+            })
+            .attr('x', -5)
+            .style("text-anchor", "end")
+            .text(function(d, i) {
+                return d.Specialty
+            })
+
+        var textList = listItems.append('text')
+            .attr('class', 'specialty-list')
+            .attr('data-specialty', function(d, i) {
+                return d.Specialty + ' ' + d.Payments.toFixed(0)
+            })
+            .attr('x', 5)
+            .style("text-anchor", "start")
+            .text(function(d, i) {
+                var payment = d.Payments.toFixed(0);
+                payment = payment.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                return "$ " + payment;
+            })
+
+    }
 
     // load map and marker data
     var loadMapAndMarkers = (function() {
@@ -247,19 +302,29 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
 
     // draw pie donut and create list of specialties
     var selectCityThenDraw = function(selectedCity, population) {
+        // clear old donut and initial info
         $('#site-information').remove();
         $('.donut').empty();
+
+        // get the selected city from data
         var cityName = selectedCity.split(' ');
         cityName[0] = cityName[0].toLowerCase();
         var citySelector = cityName.join('');
         var theCity = nestedData.filter(function(city) {
             return city.key === citySelector;
         })[0];
-        console.log(theCity);
         var totalPayments = theCity.sum.toFixed(0);
-        console.log(selectedCity, "sum:", totalPayments, "pop:", population);
+        console.log(theCity, selectedCity, "sum:", totalPayments, "pop:", population);
+
         // call the make donut function
         createDonut(selectedCity, totalPayments, theCity.values);
+
+        // call the create list of specialties
+        $('.map').fadeOut(400, function() {
+            $('.specialties-list-svg').fadeIn();
+            createListOfSpecialties(theCity.values);
+
+        });
     }
 
 
