@@ -1,9 +1,11 @@
+@import url(sprites.css);
+
 .columns {
   padding: 0;
 }
 
 .site-information {
-  font-family: "Special Elite", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   fill: #FFF;
   font-size: 1.5rem;
   margin-top: 175px;
@@ -31,7 +33,7 @@
 }
 
 .pie-chart-title {
-  font-family: "Special Elite", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   fill: #FFF;
   font-size: 2rem;
 }
@@ -40,6 +42,7 @@
   stroke: #555;
   stroke-width: 1;
 }
+
 .arc:hover {
   stroke: #222;
   stroke-width: 2;
@@ -55,7 +58,7 @@
   font-size: 1.25rem;
   fill: #000;
   pointer-events: none;
-  font-family: "Special Elite", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .label-box {
@@ -82,6 +85,7 @@
 .social-link {
   padding: 0 .5rem;
 }
+
 .social-link:hover {
   color: white;
   text-decoration: underline;
@@ -90,13 +94,14 @@
 .creator-title {
   font-size: 1.75rem;
   color: white;
-  font-family: "Special Elite", sans-serif;
+  font-family: "Ubuntu", sans-serif;
 }
 
 .creator-name {
   color: white;
-  padding: .1rem;
+  padding: .4rem;
   margin: 0;
+  font-size: 1.4rem;
 }
 
 .header-row {
@@ -151,7 +156,7 @@ a {
 }
 
 .site-title {
-  font-family: "Special Elite", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: black;
   font-size: 1.8rem;
   margin: 0;

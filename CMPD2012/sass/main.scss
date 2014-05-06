@@ -1,5 +1,7 @@
+$ubuntu: 'Ubuntu', sans-serif;
+$elite: 'Special Elite', sans-serif;
 
-$theFont: 'Special Elite', sans-serif;
+@import 'sprites.css';
 
 .columns {
 	padding: 0;
@@ -7,7 +9,7 @@ $theFont: 'Special Elite', sans-serif;
 
 // initial load information
 .site-information {
-	font-family: $theFont;
+	font-family: $ubuntu;
 	fill: #FFF;
 	font-size: 1.5rem;
 	margin-top: 175px;
@@ -33,7 +35,7 @@ $theFont: 'Special Elite', sans-serif;
 	stroke: none;
 }
 .pie-chart-title {
-	font-family: $theFont;
+	font-family: $ubuntu;
 	fill: #FFF;
 	font-size: 2rem;
 }
@@ -57,7 +59,7 @@ $theFont: 'Special Elite', sans-serif;
 	font-size: 1.25rem;
   fill: #000;
   pointer-events: none;
-  font-family: $theFont;
+  font-family: $ubuntu;
 }
 .label-box {
 	fill: #FFF;
@@ -91,12 +93,13 @@ $theFont: 'Special Elite', sans-serif;
 .creator-title{
 	font-size: 1.75rem;
 	color: white;
-	font-family: $theFont;
+	font-family: $ubuntu;
 }
 .creator-name {
-color: white;
-  padding: .1rem;
-  margin: 0;
+	color: white;
+	padding: .4rem;
+	margin: 0;
+	font-size: 1.4rem;
 }
 
 // Header styles
@@ -156,7 +159,7 @@ body {
 }
 
 .site-title {
-	font-family: $theFont;
+	font-family: $ubuntu;
 	color: black;
 	font-size: 1.8rem;
 	margin: 0;
