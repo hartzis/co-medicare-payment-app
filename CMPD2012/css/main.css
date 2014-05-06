@@ -20,6 +20,7 @@
 }
 
 .pie-chart-title {
+  font-family: "Droid Sans", sans-serif;
   fill: #FFF;
   font-size: 2rem;
 }
@@ -28,7 +29,6 @@
   stroke: #555;
   stroke-width: 1;
 }
-
 .arc:hover {
   stroke: #222;
   stroke-width: 2;
@@ -48,16 +48,16 @@
 
 .label-box {
   fill: #FFF;
-  stroke: #00F;
-  stroke-width: 2;
+  stroke: #aaa;
+  stroke-width: 1;
   pointer-events: none;
 }
 
 .city-marker {
   fill: #FFF;
   stroke-width: 2;
-  stroke: #00F;
-  opacity: 0.45;
+  stroke: #555;
+  opacity: 0.75;
   cursor: pointer;
 }
 
@@ -70,18 +70,19 @@
 .social-link {
   padding: 0 .5rem;
 }
-
 .social-link:hover {
   color: white;
   text-decoration: underline;
 }
 
-.creator-title,
-.creator-name {
+.creator-title {
+  font-size: 1.75rem;
   color: white;
+  font-family: "Droid Sans", sans-serif;
 }
 
 .creator-name {
+  color: white;
   padding: .1rem;
   margin: 0;
 }
@@ -148,6 +149,6 @@ a {
   position: relative;
 }
 
-#colorado-sky {
-  opacity: .8;
+.backstretch {
+  opacity: 0.9;
 }

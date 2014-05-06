@@ -1,4 +1,4 @@
-$droid: 'Droid Sans', sans-serif;
+$theFont: 'Droid Sans', sans-serif;
 
 .columns {
 	padding: 0;
@@ -21,6 +21,7 @@ $droid: 'Droid Sans', sans-serif;
 	stroke: none;
 }
 .pie-chart-title {
+	font-family: $theFont;
 	fill: #FFF;
 	font-size: 2rem;
 }
@@ -47,15 +48,15 @@ $droid: 'Droid Sans', sans-serif;
 }
 .label-box {
 	fill: #FFF;
-	stroke: #00F;
-	stroke-width: 2;
+	stroke: #aaa;
+	stroke-width: 1;
 	pointer-events: none;
 }
 .city-marker {
   fill: #FFF;
   stroke-width:2;
-  stroke: #00F;
-  opacity: 0.45;
+  stroke: #555;
+  opacity: 0.75;
   cursor: pointer;
 }
 
@@ -74,11 +75,13 @@ $droid: 'Droid Sans', sans-serif;
   }
 }
 
-.creator-title,
-.creator-name {
+.creator-title{
+	font-size: 1.75rem;
 	color: white;
+	font-family: $theFont;
 }
 .creator-name {
+color: white;
   padding: .1rem;
   margin: 0;
 }
@@ -140,7 +143,7 @@ body {
 }
 
 .site-title {
-	font-family: $droid;
+	font-family: $theFont;
 	color: black;
 	font-size: 1.8rem;
 	margin: 0;
@@ -150,7 +153,10 @@ body {
 }
 
 #colorado-sky {
-	opacity: .8;
+	
+}
+.backstretch{
+	opacity: 0.9;
 }
 .background-wrapper {
 	// margin-bottom: 10rem;
