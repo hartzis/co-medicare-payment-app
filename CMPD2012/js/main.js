@@ -191,8 +191,8 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
             .attr('data-specialty', function(d, i) {
                 return d.Specialty + ' ' + d.Payments.toFixed(0)
             })
-            .attr('x', -5)
-            .style("text-anchor", "end")
+            .attr('x', -(svgWidth / 2) + 10)
+            .style("text-anchor", "start")
             .text(function(d, i) {
                 return d.Specialty
             })
@@ -202,7 +202,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
             .attr('data-specialty', function(d, i) {
                 return d.Specialty + ' ' + d.Payments.toFixed(0)
             })
-            .attr('x', 5)
+            .attr('x', 55)
             .style("text-anchor", "start")
             .text(function(d, i) {
                 var payment = d.Payments.toFixed(0);
