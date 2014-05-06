@@ -2,6 +2,17 @@
   padding: 0;
 }
 
+.site-information {
+  font-family: "Special Elite", sans-serif;
+  fill: #FFF;
+  font-size: 1.5rem;
+  margin-top: 175px;
+}
+
+#site-information {
+  position: absolute;
+}
+
 .donut {
   height: 525px;
   width: 480px;

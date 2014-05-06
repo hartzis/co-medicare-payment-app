@@ -5,6 +5,17 @@ $theFont: 'Special Elite', sans-serif;
 	padding: 0;
 }
 
+// initial load information
+.site-information {
+	font-family: $theFont;
+	fill: #FFF;
+	font-size: 1.5rem;
+	margin-top: 175px;
+}
+#site-information{
+	position: absolute;
+}
+
 // donut chart styles
 .donut{
 	height: 525px;

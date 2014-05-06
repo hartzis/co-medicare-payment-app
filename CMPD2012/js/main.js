@@ -154,7 +154,6 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
     }
 
 
-
     // load map and marker data
     var loadMapAndMarkers = (function() {
         var svg = d3.select('.map');
@@ -168,7 +167,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
                 lat: 40.065,
                 lon: -104.95
             })
-            .zoom(9)
+            .zoom(8.75)
         //  .add(po.interact());
 
         // water map layer
@@ -244,6 +243,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
     })();
 
     var selectCityThenDraw = function(selectedCity, population) {
+        $('#site-information').remove();
         $('.donut').empty();
         var cityName = selectedCity.split(' ');
         cityName[0] = cityName[0].toLowerCase();
