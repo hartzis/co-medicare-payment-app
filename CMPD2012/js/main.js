@@ -208,7 +208,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
                     // create background box
                     var textBBox = thisText[0][0].getBBox();
                     labelBox.attr('width', function(d, i) {
-                        return textBBox.width + 4
+                        return textBBox.width + 6
                     })
                         .attr('height', function(d, i) {
                             return textBBox.height + 2
@@ -217,7 +217,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
                             return textBBox.x - 2
                         })
                         .attr('y', function(d, i) {
-                            return textBBox.y - 1
+                            return textBBox.y - 4
                         });
                     // .transition().duration(500)
                     // .attr('opacity', 1);

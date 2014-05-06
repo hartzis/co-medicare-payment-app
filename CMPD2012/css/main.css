@@ -20,7 +20,7 @@
 }
 
 .pie-chart-title {
-  font-family: "Droid Sans", sans-serif;
+  font-family: "Special Elite", sans-serif;
   fill: #FFF;
   font-size: 2rem;
 }
@@ -44,6 +44,7 @@
   font-size: 1.25rem;
   fill: #000;
   pointer-events: none;
+  font-family: "Special Elite", sans-serif;
 }
 
 .label-box {
@@ -78,7 +79,7 @@
 .creator-title {
   font-size: 1.75rem;
   color: white;
-  font-family: "Droid Sans", sans-serif;
+  font-family: "Special Elite", sans-serif;
 }
 
 .creator-name {
@@ -139,7 +140,7 @@ a {
 }
 
 .site-title {
-  font-family: "Droid Sans", sans-serif;
+  font-family: "Special Elite", sans-serif;
   color: black;
   font-size: 1.8rem;
   margin: 0;

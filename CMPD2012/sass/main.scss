@@ -1,4 +1,5 @@
-$theFont: 'Droid Sans', sans-serif;
+
+$theFont: 'Special Elite', sans-serif;
 
 .columns {
 	padding: 0;
@@ -45,6 +46,7 @@ $theFont: 'Droid Sans', sans-serif;
 	font-size: 1.25rem;
   fill: #000;
   pointer-events: none;
+  font-family: $theFont;
 }
 .label-box {
 	fill: #FFF;
