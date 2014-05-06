@@ -74,6 +74,7 @@
 }
 
 .arc {
+  cursor: pointer;
   stroke: #555;
   stroke-width: 1;
 }

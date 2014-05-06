@@ -237,7 +237,7 @@ $(document).on('ready', function() {
 
 
                 var cities = topojson.feature(citiesJson, citiesJson.objects.collection);
-                console.log(cities);
+
 
                 var layer = svg.insert("svg:g");
 
@@ -317,6 +317,10 @@ $(document).on('ready', function() {
             })[0];
             var totalPayments = theCity.sum.toFixed(0);
 
+            // sort by payments
+            theCity.values.sort(function(a, b) {
+                return b.Payments - a.Payments
+            })
 
             // call the make donut function
             createDonut(selectedCity, totalPayments, theCity.values);
