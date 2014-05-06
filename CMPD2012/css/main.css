@@ -20,6 +20,24 @@
   width: 480px;
 }
 
+.specialties-list-div {
+  display: none;
+  height: 525px;
+  width: 480px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.row .row {
+  margin: 0;
+}
+
+.map-button {
+  display: none;
+  position: absolute;
+  bottom: -10px;
+}
+
 .donut {
   height: 525px;
   width: 480px;

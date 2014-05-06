@@ -5,6 +5,13 @@ var cityText;
 
 $(document).on('ready', function() {
     $('.flag-c').fadeIn(2000);
+
+    $(document).on('click', '.map-button', function() {
+        $('.specialties-list-div').fadeOut(400, function() {
+            $('.map').fadeIn();
+            $('.map-button').fadeOut();
+        });
+    });
 });
 
 // adding back ground image using backstretch.js
@@ -154,9 +161,46 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
 
     }
 
-    // create list of specialties
+    // create list-items for specialties div
+    var createListItemsForSpecialties = function(cityArrayOfObjects) {
+        // sort by payment
+        cityArrayOfObjects.sort(function(a, b) {
+            return b.Payments - a.Payments
+        })
+        var listOfItems = [];
+        for (var i = 0; i < cityArrayOfObjects.length; i++) {
+            var d = cityArrayOfObjects[i];
+
+            var dataSpecialty = '' + d.Specialty + d.Payments.toFixed(0);
+
+            var payment = d.Payments.toFixed(0);
+            payment = "$ " + payment.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+            var specialtySpanCont = $('<div class="small-8 columns"></div>');
+            var paymentsSpanCont = $('<div class="small-4 columns"></div>');
+
+            var specialtySpan = $('<span>', {
+                class: 'specialty-label',
+                text: d.Specialty
+            })
+            var paymentsSpan = $('<span>', {
+                class: 'specialty-label',
+                text: payment
+            });
+
+            var item = $('<div class="row specialty-rows"></div>');
+            item.append(specialtySpanCont.append(specialtySpan), paymentsSpanCont.append(paymentsSpan));
+            listOfItems.push(item);
+
+        };
+        console.log(listOfItems);
+        return listOfItems;
+    }
+
+    // create list of specialties svg
     var createListOfSpecialties = function(cityArrayOfObjects) {
 
+        // sort by payment
         cityArrayOfObjects.sort(function(a, b) {
             return a.Payments - b.Payments
         })
@@ -189,7 +233,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
         var textList = listItems.append('text')
             .attr('class', 'specialty-list')
             .attr('data-specialty', function(d, i) {
-                return d.Specialty + ' ' + d.Payments.toFixed(0)
+                return d.Specialty + d.Payments.toFixed(0)
             })
             .attr('x', -(svgWidth / 2) + 10)
             .style("text-anchor", "start")
@@ -200,7 +244,7 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
         var textList = listItems.append('text')
             .attr('class', 'specialty-list')
             .attr('data-specialty', function(d, i) {
-                return d.Specialty + ' ' + d.Payments.toFixed(0)
+                return d.Specialty + d.Payments.toFixed(0)
             })
             .attr('x', 55)
             .style("text-anchor", "start")
@@ -302,9 +346,11 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
 
     // draw pie donut and create list of specialties
     var selectCityThenDraw = function(selectedCity, population) {
-        // clear old donut and initial info
+        // clear old donut, initial info, and specialty list
         $('#site-information').remove();
         $('.donut').empty();
+        $('.specialties-list-svg').empty()
+        $('.specialties-list-div').empty()
 
         // get the selected city from data
         var cityName = selectedCity.split(' ');
@@ -319,10 +365,19 @@ d3.json("./json/allCitiesPayments.json", function(error, citiesJson) {
         // call the make donut function
         createDonut(selectedCity, totalPayments, theCity.values);
 
-        // call the create list of specialties
-        $('.map').fadeOut(400, function() {
+        // call the create list of specialties for svg
+        /*$('.map').fadeOut(400, function() {
             $('.specialties-list-svg').fadeIn();
+            $('.map-button').fadeIn();
             createListOfSpecialties(theCity.values);
+
+        });*/
+
+        // call the create list of specialties for div
+        $('.map').fadeOut(400, function() {
+            $('.specialties-list-div').fadeIn();
+            $('.map-button').fadeIn();
+            $('.specialties-list-div').append(createListItemsForSpecialties(theCity.values));
 
         });
     }
