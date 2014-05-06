@@ -21,10 +21,20 @@ $elite: 'Special Elite', sans-serif;
 // specialty list styles
 .specialties-list-div{
 	display:none;
-	height: 525px;
+	height: 505px;
 	width: 480px;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	background-color: rgba(255,255,255,0.20)
+}
+.specialties-list-container {
+	position: relative;
+}
+.specialties-total-payments{
+	display: none;
+	height: 20px;
+	width: 480px;
+	text-align: center;
 	background-color: rgba(255,255,255,0.20)
 }
 .specialty-label {

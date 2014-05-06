@@ -19,6 +19,7 @@ $(document).on('ready', function() {
 
     $(document).on('click', '.map-button', function() {
         $('.map-button').toggle();
+        $('.specialties-total-payments').fadeOut();
         $('.specialties-list-div').fadeOut(400, function() {
             $('.map').fadeIn();
 
@@ -108,6 +109,7 @@ $(document).on('ready', function() {
                     // highlight listed item
                     specialtyListDom = $('.specialties-list-container').find('[data-specialty="' + specialtyData + '"]');
                     specialtyListDom.addClass('highlighted').siblings().removeClass('highlighted');
+                    // scroll select to top
                     $('.specialties-list-div').scrollTop(specialtyListDom.position().top);
                 });
 
@@ -190,8 +192,8 @@ $(document).on('ready', function() {
                 var payment = d.Payments.toFixed(0);
                 payment = "$ " + payment.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 
-                var specialtySpanCont = $('<div class="small-8 columns"></div>');
-                var paymentsSpanCont = $('<div class="small-4 columns"></div>');
+                var specialtySpanCont = $('<div class="small-9 columns"></div>');
+                var paymentsSpanCont = $('<div class="small-3 columns"></div>');
 
                 var specialtySpan = $('<span>', {
                     class: 'specialty-label',
@@ -201,11 +203,16 @@ $(document).on('ready', function() {
                     class: 'specialty-label',
                     text: payment
                 });
+                var centeredCol = $('<div class="small-10 small-centered columns specialty-rows"></div>')
+                var itemContainer = $('<div class="row"></div>');
 
-                var item = $('<div class="row specialty-rows"></div>');
-                item.attr('data-specialty', dataSpecialty)
+                var item = $('<div class="row"></div>');
+                // assign data attr for direct lookup
+                itemContainer.attr('data-specialty', dataSpecialty)
                 item.append(specialtySpanCont.append(specialtySpan), paymentsSpanCont.append(paymentsSpan));
-                listOfItems.push(item);
+
+                itemContainer.append(centeredCol.append(item));
+                listOfItems.push(itemContainer);
 
             };
             return listOfItems;
@@ -268,13 +275,13 @@ $(document).on('ready', function() {
                             return textBBox.width + 6
                         })
                             .attr('height', function(d, i) {
-                                return textBBox.height + 2
+                                return textBBox.height
                             })
                             .attr('x', function(d, i) {
                                 return textBBox.x - 2
                             })
                             .attr('y', function(d, i) {
-                                return textBBox.y - 4
+                                return textBBox.y
                             });
                         // .transition().duration(500)
                         // .attr('opacity', 1);
@@ -305,8 +312,9 @@ $(document).on('ready', function() {
             // clear old donut, initial info, and specialty list
             $('#site-information').remove();
             $('.donut').empty();
-            $('.specialties-list-svg').empty()
-            $('.specialties-list-container').empty()
+            $('.specialties-list-svg').empty();
+            $('.specialties-list-container').empty();
+            $('.specialties-total-payments').empty();
 
             // get the selected city from data
             var cityName = selectedCity.split(' ');
@@ -325,9 +333,20 @@ $(document).on('ready', function() {
             // call the make donut function
             createDonut(selectedCity, totalPayments, theCity.values);
 
+            // format total payment
+            var payment = "$ " + totalPayments.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+
+            // set total payments title
+            var totalPaymentsTitle = $('<span>', {
+                class: 'total-payments-title',
+                text: selectedCity + " Total Payments: " + payment
+            });
+
             // call the create list of specialties for div
             $('.map').fadeOut(400, function() {
                 $('.specialties-list-div').fadeIn();
+                $('.specialties-total-payments').fadeIn();
+                $('.specialties-total-payments').append(totalPaymentsTitle);
                 $('.map-button').fadeIn();
                 $('.specialties-list-container').append(createListItemsForSpecialties(theCity.values));
 
