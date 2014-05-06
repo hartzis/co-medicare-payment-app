@@ -90,8 +90,7 @@
   padding: 0 .5rem;
 }
 .social-link:hover {
-  color: white;
-  text-decoration: underline;
+  color: #ccc;
 }
 
 .creator-title {
