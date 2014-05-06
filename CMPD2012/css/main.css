@@ -14,18 +14,21 @@
   position: absolute;
 }
 
-.specialties-list-svg {
-  display: none;
-  height: 525px;
-  width: 480px;
-}
-
 .specialties-list-div {
   display: none;
   height: 525px;
   width: 480px;
   overflow-y: scroll;
   overflow-x: hidden;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.specialty-rows {
+  padding: 0.10rem;
+}
+
+.highlighted {
+  color: #FFF;
 }
 
 .row .row {
@@ -35,7 +38,16 @@
 .map-button {
   display: none;
   position: absolute;
-  bottom: -10px;
+  width: 100px;
+  bottom: -50;
+  left: 190px;
+  background-color: rgba(245, 245, 245, 0.5);
+  border: 2px solid #aaa;
+  color: #000;
+}
+.map-button:hover {
+  background-color: whitesmoke;
+  color: #000;
 }
 
 .donut {

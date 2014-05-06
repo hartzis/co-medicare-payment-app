@@ -19,20 +19,22 @@ $elite: 'Special Elite', sans-serif;
 }
 
 // specialty list styles
-.specialties-list-svg {
-	display: none;
-	height: 525px;
-	width: 480px;
-}
 .specialties-list-div{
 	display:none;
 	height: 525px;
 	width: 480px;
 	overflow-y: scroll;
 	overflow-x: hidden;
+	background-color: rgba(255,255,255,0.20)
+}
+.specialty-label {
+
 }
 .specialty-rows {
-
+	padding:0.10rem;
+}
+.highlighted {
+	color: #FFF;
 }
 .row .row {
 	margin: 0;
@@ -41,7 +43,16 @@ $elite: 'Special Elite', sans-serif;
 .map-button {
 	display: none;
 	position: absolute;
-	bottom: -10px;
+	width: 100px;
+	bottom: -50;
+	left: 190px;
+	background-color: rgba(245,245,245,0.5);
+	border: 2px solid #aaa;
+	color: #000;
+	&:hover{
+		background-color: rgba(245,245,245,1);
+		color: #000;
+	}
 }
 
 // donut chart styles
