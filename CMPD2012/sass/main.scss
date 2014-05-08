@@ -1,10 +1,9 @@
 $ubuntu: 'Ubuntu', sans-serif;
-$elite: 'Special Elite', sans-serif;
 
 @import 'sprites.css';
 
 .columns {
-	padding: 0;
+	padding: 0.05rem;
 }
 
 // initial load information
@@ -21,7 +20,7 @@ $elite: 'Special Elite', sans-serif;
 // specialty list styles
 .specialties-list-div{
 	display:none;
-	height: 505px;
+	height: 490px;
 	width: 480px;
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -30,15 +29,21 @@ $elite: 'Special Elite', sans-serif;
 .specialties-list-container {
 	position: relative;
 }
-.specialties-total-payments{
+.specialties-total-payments {
 	display: none;
-	height: 20px;
+	height: 36px;
 	width: 480px;
 	text-align: center;
-	background-color: rgba(255,255,255,0.20)
+	background-color: rgba(255,255,255,0.20);
+	// margin-bottom: 1rem;
+	border-bottom: 1px solid black;
+	padding-top: 6px;
+}
+.total-payments-title {
+	font-size: 140%;
 }
 .specialty-label {
-
+	margin-top: 1rem;
 }
 .specialty-rows {
 	padding:0.10rem;
@@ -51,14 +56,18 @@ $elite: 'Special Elite', sans-serif;
 }
 // map button
 .map-button {
+	border: 0 !important;
 	display: none;
 	position: absolute;
-	width: 100px;
+	width: 480px;
 	bottom: -50;
-	left: 190px;
+	// left: 190px;
 	background-color: rgba(245,245,245,0.5);
 	border: 2px solid #aaa;
 	color: #000;
+	a {
+		font-size: 150%
+	}
 	&:hover{
 		background-color: rgba(245,245,245,1);
 		color: #000;
@@ -71,6 +80,7 @@ $elite: 'Special Elite', sans-serif;
 	width: 480px;
 }
 .specialty {
+	// margin: 1rem;
 	fill: #FFF;
 	pointer-events: none;
 	stroke: none;
@@ -84,7 +94,8 @@ $elite: 'Special Elite', sans-serif;
 .pie-chart-title {
 	font-family: $ubuntu;
 	fill: #FFF;
-	font-size: 2rem;
+	font-size: 3rem;
+
 }
 .arc {
 	cursor: pointer;
@@ -137,7 +148,8 @@ $elite: 'Special Elite', sans-serif;
   }
 }
 
-.creator-title{
+.creator-title {
+	margin-top: 4rem;
 	font-size: 1.75rem;
 	color: white;
 	font-family: $ubuntu;
@@ -156,9 +168,7 @@ $elite: 'Special Elite', sans-serif;
 .header {
 	display: block;
 }
-
 .header-flag-blue {
-	// background-color: blue;
 	opacity: .7;
 	height: 2rem;
 	width: 100%;
@@ -189,10 +199,6 @@ a {
 	color: white;
 }
 
-body {
-	// margin-bottom: 5rem;
-}
-
 .footer {
 	margin-bottom: 1.5rem;
 }
@@ -206,6 +212,7 @@ body {
 }
 
 .site-title {
+	line-height: 1.2;
 	font-family: $ubuntu;
 	color: black;
 	font-size: 1.8rem;
@@ -213,10 +220,6 @@ body {
 }
 .custom-panel-container {
 	position: relative;
-}
-
-#colorado-sky {
-	
 }
 .backstretch{
 	opacity: 0.9;

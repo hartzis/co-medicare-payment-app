@@ -1,6 +1,7 @@
 @import url(sprites.css);
+
 .columns {
-  padding: 0;
+  padding: 0.05rem;
 }
 
 .site-information {
@@ -16,7 +17,7 @@
 
 .specialties-list-div {
   display: none;
-  height: 505px;
+  height: 490px;
   width: 480px;
   overflow-y: scroll;
   overflow-x: hidden;
@@ -29,10 +30,20 @@
 
 .specialties-total-payments {
   display: none;
-  height: 20px;
+  height: 36px;
   width: 480px;
   text-align: center;
   background-color: rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid black;
+  padding-top: 6px;
+}
+
+.total-payments-title {
+  font-size: 140%;
+}
+
+.specialty-label {
+  margin-top: 1rem;
 }
 
 .specialty-rows {
@@ -48,15 +59,20 @@
 }
 
 .map-button {
+  border: 0 !important;
   display: none;
   position: absolute;
-  width: 100px;
+  width: 480px;
   bottom: -50;
-  left: 190px;
   background-color: rgba(245, 245, 245, 0.5);
   border: 2px solid #aaa;
   color: #000;
 }
+
+.map-button a {
+  font-size: 150%;
+}
+
 .map-button:hover {
   background-color: whitesmoke;
   color: #000;
@@ -82,7 +98,7 @@
 .pie-chart-title {
   font-family: "Ubuntu", sans-serif;
   fill: #FFF;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 .arc {
@@ -90,6 +106,7 @@
   stroke: #555;
   stroke-width: 1;
 }
+
 .arc:hover {
   stroke: #222;
   stroke-width: 2;
@@ -132,11 +149,13 @@
 .social-link {
   padding: 0 .5rem;
 }
+
 .social-link:hover {
   color: #ccc;
 }
 
 .creator-title {
+  margin-top: 4rem;
   font-size: 1.75rem;
   color: white;
   font-family: "Ubuntu", sans-serif;
@@ -201,6 +220,7 @@ a {
 }
 
 .site-title {
+  line-height: 1.2;
   font-family: "Ubuntu", sans-serif;
   color: black;
   font-size: 1.8rem;
