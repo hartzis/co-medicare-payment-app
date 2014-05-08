@@ -18,6 +18,9 @@ $(document).on('ready', function() {
     $('.flag-c').fadeIn(2000);
 
     $(document).on('click', '.map-button', function() {
+        $('.donut').fadeOut(400, function() {
+            $('#site-information').fadeIn();
+        });
         $('.map-button').toggle();
         $('.specialties-total-payments').fadeOut();
         $('.specialties-list-div').fadeOut(400, function() {
@@ -310,8 +313,9 @@ $(document).on('ready', function() {
         // draw pie donut and create list of specialties
         var selectCityThenDraw = function(selectedCity, population) {
             // clear old donut, initial info, and specialty list
-            $('#site-information').remove();
+            $('#site-information').toggle();
             $('.donut').empty();
+            $('.donut').toggle();
             $('.specialties-list-svg').empty();
             $('.specialties-list-container').empty();
             $('.specialties-total-payments').empty();

@@ -11,10 +11,13 @@ $ubuntu: 'Ubuntu', sans-serif;
 	font-family: $ubuntu;
 	fill: #FFF;
 	font-size: 1.5rem;
-	margin-top: 175px;
+	margin-top: 135px;
 }
 #site-information{
 	position: absolute;
+}
+.data-description {
+	padding-top: 25px;
 }
 
 // specialty list styles
@@ -76,6 +79,7 @@ $ubuntu: 'Ubuntu', sans-serif;
 
 // donut chart styles
 .donut{
+	display: none;
 	height: 525px;
 	width: 480px;
 }

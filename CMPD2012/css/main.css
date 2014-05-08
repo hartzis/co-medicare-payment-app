@@ -1,5 +1,4 @@
 @import url(sprites.css);
-
 .columns {
   padding: 0.05rem;
 }
@@ -8,11 +7,15 @@
   font-family: "Ubuntu", sans-serif;
   fill: #FFF;
   font-size: 1.5rem;
-  margin-top: 175px;
+  margin-top: 135px;
 }
 
 #site-information {
   position: absolute;
+}
+
+.data-description {
+  padding-top: 25px;
 }
 
 .specialties-list-div {
@@ -68,17 +71,16 @@
   border: 2px solid #aaa;
   color: #000;
 }
-
 .map-button a {
   font-size: 150%;
 }
-
 .map-button:hover {
   background-color: whitesmoke;
   color: #000;
 }
 
 .donut {
+  display: none;
   height: 525px;
   width: 480px;
 }
@@ -106,7 +108,6 @@
   stroke: #555;
   stroke-width: 1;
 }
-
 .arc:hover {
   stroke: #222;
   stroke-width: 2;
@@ -149,7 +150,6 @@
 .social-link {
   padding: 0 .5rem;
 }
-
 .social-link:hover {
   color: #ccc;
 }
