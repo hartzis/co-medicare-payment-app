@@ -62,30 +62,6 @@
             }, {
                 "type": "Point",
                 "properties": {
-                    "city": "Arvada",
-                    "state": "CO",
-                    "population": 109745
-                },
-                "coordinates": [3371, 2657]
-            }, {
-                "type": "Point",
-                "properties": {
-                    "city": "Lakewood",
-                    "state": "CO",
-                    "population": 145516
-                },
-                "coordinates": [3320, 1707]
-            }, {
-                "type": "Point",
-                "properties": {
-                    "city": "Golden",
-                    "state": "CO",
-                    "population": 19186
-                },
-                "coordinates": [848, 2175]
-            }, {
-                "type": "Point",
-                "properties": {
                     "city": "Aurora",
                     "state": "CO",
                     "population": 339030
@@ -102,6 +78,22 @@
             }, {
                 "type": "Point",
                 "properties": {
+                    "city": "Arvada",
+                    "state": "CO",
+                    "population": 109745
+                },
+                "coordinates": [3371, 2657]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Golden",
+                    "state": "CO",
+                    "population": 19186
+                },
+                "coordinates": [848, 2175]
+            }, {
+                "type": "Point",
+                "properties": {
                     "city": "Denver",
                     "state": "CO",
                     "population": 634265
@@ -115,6 +107,14 @@
                     "population": 101898
                 },
                 "coordinates": [5501, 0]
+            }, {
+                "type": "Point",
+                "properties": {
+                    "city": "Lakewood",
+                    "state": "CO",
+                    "population": 145516
+                },
+                "coordinates": [3320, 1707]
             }]
         }
     },
