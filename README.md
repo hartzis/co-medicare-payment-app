@@ -3,7 +3,7 @@ colorado-medicare-payment-data
 
 Live Version:
 
-[http://www.hartzis.me/co-medicare-payment-app/](http://www.hartzis.me/co-medicare-payment-app/)
+[Colorado's 2012 Medicare Payment Data Visualized](http://cmpd2012.herokuapp.com/)
 
 Data Source:
 http://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/Medicare-Provider-Charge-Data/Physician-and-Other-Supplier.html
